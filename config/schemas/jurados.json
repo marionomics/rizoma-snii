@@ -1,0 +1,268 @@
+{
+  "group": "Aportaciones",
+  "subsection": "Jurados",
+  "slug": "jurados",
+  "url": "https://rizoma.conahcyt.mx/aportaciones/jurados",
+  "mapped_at": "2026-03-23T19:54:52.673283+00:00",
+  "list_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/jurados?page=1&size=25",
+      "path": "/services/msaportaciones/api/jurados",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/avisos/ultimo?tipo=AVISO_PRIVACIDAD_SIMPLIFICADO",
+      "path": "/services/msperfil/api/avisos/ultimo",
+      "status": 200,
+      "response_keys": [
+        "id",
+        "fechaPublicacion",
+        "cvu",
+        "fechaAceptacion",
+        "tipo",
+        "aceptado",
+        "aceptaTransferencia"
+      ],
+      "response_size": 7
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/notificaciones/419727",
+      "path": "/services/msperfil/api/notificaciones/419727",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/total-documentos/con-documento",
+      "path": "/services/msaportaciones/api/total-documentos/con-documento",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/total-productos/items-con-documento",
+      "path": "/services/msperfil/api/total-productos/items-con-documento",
+      "status": 200
+    }
+  ],
+  "form_api_calls": [],
+  "form_fields": [
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "jurados.jurados-rol-id",
+      "label": "Rol de Participación *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Autor(a) principal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Autor(a) de correspondencia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Director(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-autor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Coordinador(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Colaborador(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Compilador(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Editor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Líder(esa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Traductor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Técnico(a)"
+        }
+      ]
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "jurados.jurados-convocatoria-premio-id",
+      "id": "jurados.jurados-convocatoria-premio-id_BV_option_0",
+      "label": "Convocatoria",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "jurados.jurados-convocatoria-premio-id",
+      "id": "jurados.jurados-convocatoria-premio-id_BV_option_1",
+      "label": "Premio",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "jurados.jurados-descripcion-id",
+      "label": "Descripción",
+      "required": false,
+      "options": null
+    }
+  ],
+  "headings": [
+    "Participación en Jurado",
+    "Aún no hay información"
+  ],
+  "add_form_found": true,
+  "notes": []
+}

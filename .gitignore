@@ -1,0 +1,28 @@
+# ── Credenciales y sesión ──────────────────────────────────────────────────
+.env
+session/
+
+# ── Evidencias personales ──────────────────────────────────────────────────
+# Los archivos JSON y PDF en evidence/ contienen datos académicos personales.
+# La estructura de carpetas se preserva con archivos .gitkeep.
+evidence/**/*.json
+evidence/**/*.pdf
+
+# ── Datos crudos personales ────────────────────────────────────────────────
+# Exportaciones de Ghost, datos filtrados, notas de revisión.
+raw_evidence/
+
+# ── Logs y reportes ────────────────────────────────────────────────────────
+# Contienen capturas de pantalla, IDs de Rizoma, registros de subida.
+logs/
+
+# ── Claude Code (configuración local) ─────────────────────────────────────
+.claude/
+
+# ── macOS ──────────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── Python ─────────────────────────────────────────────────────────────────
+*.pyc
+__pycache__/

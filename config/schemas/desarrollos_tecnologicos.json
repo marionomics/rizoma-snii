@@ -1,0 +1,530 @@
+{
+  "group": "Aportaciones",
+  "subsection": "Desarrollos Tecnologicos Innovaciones",
+  "slug": "desarrollos_tecnologicos",
+  "url": "https://rizoma.conahcyt.mx/aportaciones/desarrollos-tecnologicos-innovaciones",
+  "mapped_at": "2026-03-23T19:52:53.652813+00:00",
+  "list_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/tipos-fondo?page=1&size=300",
+      "path": "/services/saci/api/v1/tipos-fondo",
+      "status": 200,
+      "response_count": 89,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/desarrollos-tec?page=1&size=300",
+      "path": "/services/saci/api/v1/desarrollos-tec",
+      "status": 200,
+      "response_count": 3,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/rol-participacion-tec-sni?page=1&size=300",
+      "path": "/services/saci/api/v1/rol-participacion-tec-sni",
+      "status": 200,
+      "response_count": 5,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/trl-sni?page=1&size=300",
+      "path": "/services/saci/api/v1/trl-sni",
+      "status": 200,
+      "response_count": 6,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/desarrollos-tecnologicos-innovaciones?page=1&size=25&producto=&nombre=&fechaInicio=&fechaFin=&rol=",
+      "path": "/services/msaportaciones/api/desarrollos-tecnologicos-innovaciones",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/avisos/ultimo?tipo=AVISO_PRIVACIDAD_SIMPLIFICADO",
+      "path": "/services/msperfil/api/avisos/ultimo",
+      "status": 200,
+      "response_keys": [
+        "id",
+        "fechaPublicacion",
+        "cvu",
+        "fechaAceptacion",
+        "tipo",
+        "aceptado",
+        "aceptaTransferencia"
+      ],
+      "response_size": 7
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/notificaciones/419727",
+      "path": "/services/msperfil/api/notificaciones/419727",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/total-documentos/con-documento",
+      "path": "/services/msaportaciones/api/total-documentos/con-documento",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/total-productos/items-con-documento",
+      "path": "/services/msperfil/api/total-productos/items-con-documento",
+      "status": 200
+    }
+  ],
+  "form_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/rol-participacion-tec-sni?page=1&size=300",
+      "path": "/services/saci/api/v1/rol-participacion-tec-sni",
+      "status": 200,
+      "response_count": 5,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    }
+  ],
+  "form_fields": [
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-agregar-producto-id",
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-agregar-producto-id_BV_option_0",
+      "label": "Desarrollo tecnológico",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-agregar-producto-id",
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-agregar-producto-id_BV_option_1",
+      "label": "Innovación",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-nombre-id",
+      "label": "Nombre del producto *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-tipo-desarrollo-id",
+      "label": "Tipo de desarrollo *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Proceso o método"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Producto"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Software"
+        }
+      ]
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-descripcion-desarrollo-id",
+      "label": "Descripción del desarrollo *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-objetivos-desarollo-id",
+      "label": "Objetivos del producto *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-problema-atiende-id",
+      "label": "Problema que atiende *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-numero-personas-id",
+      "label": "Número de personas en México que se benefician directamente con el producto *",
+      "required": false,
+      "options": [
+        {
+          "value": "CIEN_A_MIL",
+          "text": "100-1000"
+        },
+        {
+          "value": "MIL_UNO_A_DIEZ_MIL",
+          "text": "1001-10000"
+        },
+        {
+          "value": "DIEZ_MIL_UNO_A_CIEN_MIL",
+          "text": "10001-100000"
+        },
+        {
+          "value": "MAS_DE_CIEN_MIL",
+          "text": "+100001"
+        }
+      ]
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-justificacion-beneficiarios-id",
+      "label": "Justifique su respuesta anterior *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-generacion-valor-impacto-id",
+      "label": "Generación de valor y/o impacto para las personas que se benefician de la tecnología *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-recibio-apoyo-conacyt-id",
+      "label": "¿Ha recibido apoyo del SECIHTI? *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-nivel-madurez-id",
+      "label": "Nivel de Madurez Tecnológica actual *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "TRL 4 - Desarrollo tecnológico. Validación tecnológica a nivel laboratorio."
+        },
+        {
+          "value": "[object Object]",
+          "text": "TRL 5 - Desarrollo tecnológico. Tecnología validada en laboratorio pero en condiciones de un entorno relevante (que simulan condiciones existentes en un entorno real)."
+        },
+        {
+          "value": "[object Object]",
+          "text": "TRL 6 - Demostración tecnológica. Tecnología demostrada en un ambiente relevante."
+        },
+        {
+          "value": "[object Object]",
+          "text": "TRL 7 - Desarrollo de producto. Demostración de prototipo a nivel sistema en un ambiente operativo real (sistema real)."
+        },
+        {
+          "value": "[object Object]",
+          "text": "TRL 8 - Desarrollo de producto. Sistema completo y evaluado."
+        },
+        {
+          "value": "[object Object]",
+          "text": "TRL 9 - Producto terminado. Pruebas con éxito en entorno real. Despliegue."
+        }
+      ]
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-otros-resultados-id",
+      "label": "Otros resultados relevantes *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-rol-participacion-id",
+      "label": "Rol de participación *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Becario(a) o ayudante de investigación"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Colaborador(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Consultor(a) externo(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Líder, Responsable Técnico(a) o Coordinador"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otra"
+        }
+      ]
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-descripcion-actividades-id",
+      "label": "Descripción de sus actividades realizadas *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": null,
+      "label": "Periodo de participación / Fecha inicio *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": null,
+      "label": "Periodo de participación / Fecha fin *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "desarrollos-tecnologicos-innovaciones.desarrollos-tecnologicos-innovaciones-principales-resultados-id",
+      "label": "Principales resultados de su participación *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-tecno-nombre-id",
+      "label": "Nombre *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-tecno-primer-apellido-id",
+      "label": "Primer apellido *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-segundo-apellido-id",
+      "label": "Segundo apellido",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "autor-tecno-rol-id",
+      "label": "Rol *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Becario(a) o ayudante de investigación"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Colaborador(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Consultor(a) externo(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Líder, Responsable Técnico(a) o Coordinador"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otra"
+        }
+      ]
+    }
+  ],
+  "headings": [
+    "Desarrollo Tecnológico e Innovación",
+    "Aún no hay información"
+  ],
+  "add_form_found": true,
+  "notes": []
+}

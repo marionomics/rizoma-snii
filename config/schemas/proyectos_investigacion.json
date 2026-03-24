@@ -1,0 +1,220 @@
+{
+  "group": "Aportaciones",
+  "subsection": "Proyectos Investigacion",
+  "slug": "proyectos_investigacion",
+  "url": "https://rizoma.conahcyt.mx/aportaciones/proyectos-investigacion",
+  "mapped_at": "2026-03-23T19:53:53.229538+00:00",
+  "list_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/total-productos/items-con-documento",
+      "path": "/services/msperfil/api/total-productos/items-con-documento",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/avisos/ultimo?tipo=AVISO_PRIVACIDAD_SIMPLIFICADO",
+      "path": "/services/msperfil/api/avisos/ultimo",
+      "status": 200,
+      "response_keys": [
+        "id",
+        "fechaPublicacion",
+        "cvu",
+        "fechaAceptacion",
+        "tipo",
+        "aceptado",
+        "aceptaTransferencia"
+      ],
+      "response_size": 7
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/notificaciones/419727",
+      "path": "/services/msperfil/api/notificaciones/419727",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/proyectos-investigacion?page=1&size=25",
+      "path": "/services/msaportaciones/api/proyectos-investigacion",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/total-documentos/con-documento",
+      "path": "/services/msaportaciones/api/total-documentos/con-documento",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/total-productos/items-con-documento",
+      "path": "/services/msperfil/api/total-productos/items-con-documento"
+    }
+  ],
+  "form_api_calls": [],
+  "form_fields": [
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "proyectos-investigacion.proyectos-investigacion-titulo-id",
+      "label": "Título *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "proyectos-investigacion.proyectos-investigacion-descripcion-id",
+      "label": "Descripción",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": null,
+      "label": "Inicio de periodo *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": null,
+      "label": "Fin de periodo",
+      "required": false,
+      "options": null
+    }
+  ],
+  "headings": [
+    "Proyectos de investigación",
+    "Aún no hay información"
+  ],
+  "add_form_found": true,
+  "notes": []
+}

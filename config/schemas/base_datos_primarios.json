@@ -1,0 +1,224 @@
+{
+  "group": "Producción / Científica-humanística",
+  "subsection": "Base Datos Primarios",
+  "slug": "base_datos_primarios",
+  "url": "https://rizoma.conahcyt.mx/trayectoria-profesional/produccion/cientifica-humanistica/base-datos-primarios",
+  "mapped_at": "2026-03-23T19:52:40.788484+00:00",
+  "list_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/avisos/ultimo?tipo=AVISO_PRIVACIDAD_SIMPLIFICADO",
+      "path": "/services/msperfil/api/avisos/ultimo",
+      "status": 200,
+      "response_keys": [
+        "id",
+        "fechaPublicacion",
+        "cvu",
+        "fechaAceptacion",
+        "tipo",
+        "aceptado",
+        "aceptaTransferencia"
+      ],
+      "response_size": 7
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/notificaciones/419727",
+      "path": "/services/msperfil/api/notificaciones/419727",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/base-datos-primarios?page=1&size=25&titulo=&estado=",
+      "path": "/services/msaportaciones/api/base-datos-primarios",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/total-documentos/con-documento",
+      "path": "/services/msaportaciones/api/total-documentos/con-documento",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/total-productos/items-con-documento",
+      "path": "/services/msperfil/api/total-productos/items-con-documento",
+      "status": 200
+    }
+  ],
+  "form_api_calls": [],
+  "form_fields": [
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "base-datos-primarios.estado-id",
+      "label": "Estado *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Publicado"
+        },
+        {
+          "value": "[object Object]",
+          "text": "En proceso"
+        }
+      ]
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "base-datos-primarios.titulo-id",
+      "label": "Título *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "base-datos-primarios.descripcion-id",
+      "label": "Descripción *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "base-datos-primarios.enlace-id",
+      "label": "Enlace *",
+      "required": false,
+      "options": null
+    }
+  ],
+  "headings": [
+    "Base de Datos Primarios",
+    "Aún no hay información"
+  ],
+  "add_form_found": true,
+  "notes": []
+}

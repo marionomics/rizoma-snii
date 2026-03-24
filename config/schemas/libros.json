@@ -1,0 +1,5498 @@
+{
+  "group": "Producción / Científica-humanística",
+  "subsection": "Libros",
+  "slug": "libros",
+  "url": "https://rizoma.conahcyt.mx/trayectoria-profesional/produccion/cientifica-humanistica/libros",
+  "mapped_at": "2026-03-23T19:50:46.583609+00:00",
+  "list_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/paises?page=1&size=300",
+      "path": "/services/saci/api/v1/paises",
+      "status": 200,
+      "response_count": 250,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/idiomas?page=1&size=300",
+      "path": "/services/saci/api/v1/idiomas",
+      "status": 200,
+      "response_count": 300,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/tipos-participacion?page=1&size=300",
+      "path": "/services/saci/api/v1/tipos-participacion",
+      "status": 200,
+      "response_count": 13,
+      "response_item_keys": [
+        "id_tipo_participacion",
+        "id",
+        "nombre",
+        "cve_tipo_participacion",
+        "desc_tipo_participacion",
+        "fecha_alta",
+        "fecha_modificacion",
+        "ind_activo",
+        "usuario_alta",
+        "usuario_modificacion"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/catalogos-maestros/23/catalogos-detalle?page=1&size=300",
+      "path": "/services/saci/api/v1/catalogos-maestros/23/catalogos-detalle",
+      "status": 200,
+      "response_count": 2,
+      "response_item_keys": [
+        "id",
+        "nombre",
+        "id_cat_catalogo_maestro"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/catalogos-maestros/24/catalogos-detalle?page=1&size=300",
+      "path": "/services/saci/api/v1/catalogos-maestros/24/catalogos-detalle",
+      "status": 200,
+      "response_count": 3,
+      "response_item_keys": [
+        "id",
+        "nombre",
+        "id_cat_catalogo_maestro"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/libros?page=1&size=25&tipo=CIENTIFICA&isbn=&doi=&tituloLibro=&anioPublicacion=",
+      "path": "/services/msaportaciones/api/libros",
+      "status": 200,
+      "response_count": 1,
+      "response_item_keys": [
+        "id",
+        "eje",
+        "apoyo",
+        "isbn",
+        "doi",
+        "titulo",
+        "anio",
+        "pais",
+        "idioma",
+        "editorial",
+        "rolParticipacion",
+        "estado",
+        "objetivo",
+        "estaDictaminado",
+        "productoPrincipal",
+        "cita",
+        "tipo",
+        "autores",
+        "documento"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/avisos/ultimo?tipo=AVISO_PRIVACIDAD_SIMPLIFICADO",
+      "path": "/services/msperfil/api/avisos/ultimo",
+      "status": 200,
+      "response_keys": [
+        "id",
+        "fechaPublicacion",
+        "cvu",
+        "fechaAceptacion",
+        "tipo",
+        "aceptado",
+        "aceptaTransferencia"
+      ],
+      "response_size": 7
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/notificaciones/419727",
+      "path": "/services/msperfil/api/notificaciones/419727",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/idiomas?page=2&size=300",
+      "path": "/services/saci/api/v1/idiomas",
+      "status": 200,
+      "response_count": 126,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/total-documentos/con-documento",
+      "path": "/services/msaportaciones/api/total-documentos/con-documento",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/total-productos/items-con-documento",
+      "path": "/services/msperfil/api/total-productos/items-con-documento",
+      "status": 200
+    }
+  ],
+  "form_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/tipos-fondo?page=1&size=300",
+      "path": "/services/saci/api/v1/tipos-fondo",
+      "status": 200,
+      "response_count": 89,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    }
+  ],
+  "form_fields": [
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "libros.libros-isbn-id",
+      "label": "ISBN *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "libros.libros-doi-id",
+      "label": "DOI",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "libros.libros-titulo-id",
+      "label": "Título de libro *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "libros.libros-anio-id",
+      "label": "Año de publicación *",
+      "required": false,
+      "options": [
+        {
+          "value": "2027",
+          "text": "2027"
+        },
+        {
+          "value": "2026",
+          "text": "2026"
+        },
+        {
+          "value": "2025",
+          "text": "2025"
+        },
+        {
+          "value": "2024",
+          "text": "2024"
+        },
+        {
+          "value": "2023",
+          "text": "2023"
+        },
+        {
+          "value": "2022",
+          "text": "2022"
+        },
+        {
+          "value": "2021",
+          "text": "2021"
+        },
+        {
+          "value": "2020",
+          "text": "2020"
+        },
+        {
+          "value": "2019",
+          "text": "2019"
+        },
+        {
+          "value": "2018",
+          "text": "2018"
+        },
+        {
+          "value": "2017",
+          "text": "2017"
+        },
+        {
+          "value": "2016",
+          "text": "2016"
+        },
+        {
+          "value": "2015",
+          "text": "2015"
+        },
+        {
+          "value": "2014",
+          "text": "2014"
+        },
+        {
+          "value": "2013",
+          "text": "2013"
+        },
+        {
+          "value": "2012",
+          "text": "2012"
+        },
+        {
+          "value": "2011",
+          "text": "2011"
+        },
+        {
+          "value": "2010",
+          "text": "2010"
+        },
+        {
+          "value": "2009",
+          "text": "2009"
+        },
+        {
+          "value": "2008",
+          "text": "2008"
+        },
+        {
+          "value": "2007",
+          "text": "2007"
+        },
+        {
+          "value": "2006",
+          "text": "2006"
+        },
+        {
+          "value": "2005",
+          "text": "2005"
+        },
+        {
+          "value": "2004",
+          "text": "2004"
+        },
+        {
+          "value": "2003",
+          "text": "2003"
+        },
+        {
+          "value": "2002",
+          "text": "2002"
+        },
+        {
+          "value": "2001",
+          "text": "2001"
+        },
+        {
+          "value": "2000",
+          "text": "2000"
+        },
+        {
+          "value": "1999",
+          "text": "1999"
+        },
+        {
+          "value": "1998",
+          "text": "1998"
+        },
+        {
+          "value": "1997",
+          "text": "1997"
+        },
+        {
+          "value": "1996",
+          "text": "1996"
+        },
+        {
+          "value": "1995",
+          "text": "1995"
+        },
+        {
+          "value": "1994",
+          "text": "1994"
+        },
+        {
+          "value": "1993",
+          "text": "1993"
+        },
+        {
+          "value": "1992",
+          "text": "1992"
+        },
+        {
+          "value": "1991",
+          "text": "1991"
+        },
+        {
+          "value": "1990",
+          "text": "1990"
+        },
+        {
+          "value": "1989",
+          "text": "1989"
+        },
+        {
+          "value": "1988",
+          "text": "1988"
+        },
+        {
+          "value": "1987",
+          "text": "1987"
+        },
+        {
+          "value": "1986",
+          "text": "1986"
+        },
+        {
+          "value": "1985",
+          "text": "1985"
+        },
+        {
+          "value": "1984",
+          "text": "1984"
+        },
+        {
+          "value": "1983",
+          "text": "1983"
+        },
+        {
+          "value": "1982",
+          "text": "1982"
+        },
+        {
+          "value": "1981",
+          "text": "1981"
+        },
+        {
+          "value": "1980",
+          "text": "1980"
+        },
+        {
+          "value": "1979",
+          "text": "1979"
+        },
+        {
+          "value": "1978",
+          "text": "1978"
+        },
+        {
+          "value": "1977",
+          "text": "1977"
+        },
+        {
+          "value": "1976",
+          "text": "1976"
+        },
+        {
+          "value": "1975",
+          "text": "1975"
+        },
+        {
+          "value": "1974",
+          "text": "1974"
+        },
+        {
+          "value": "1973",
+          "text": "1973"
+        },
+        {
+          "value": "1972",
+          "text": "1972"
+        },
+        {
+          "value": "1971",
+          "text": "1971"
+        },
+        {
+          "value": "1970",
+          "text": "1970"
+        },
+        {
+          "value": "1969",
+          "text": "1969"
+        },
+        {
+          "value": "1968",
+          "text": "1968"
+        },
+        {
+          "value": "1967",
+          "text": "1967"
+        },
+        {
+          "value": "1966",
+          "text": "1966"
+        },
+        {
+          "value": "1965",
+          "text": "1965"
+        },
+        {
+          "value": "1964",
+          "text": "1964"
+        },
+        {
+          "value": "1963",
+          "text": "1963"
+        },
+        {
+          "value": "1962",
+          "text": "1962"
+        },
+        {
+          "value": "1961",
+          "text": "1961"
+        },
+        {
+          "value": "1960",
+          "text": "1960"
+        },
+        {
+          "value": "1959",
+          "text": "1959"
+        },
+        {
+          "value": "1958",
+          "text": "1958"
+        },
+        {
+          "value": "1957",
+          "text": "1957"
+        },
+        {
+          "value": "1956",
+          "text": "1956"
+        },
+        {
+          "value": "1955",
+          "text": "1955"
+        },
+        {
+          "value": "1954",
+          "text": "1954"
+        },
+        {
+          "value": "1953",
+          "text": "1953"
+        },
+        {
+          "value": "1952",
+          "text": "1952"
+        },
+        {
+          "value": "1951",
+          "text": "1951"
+        },
+        {
+          "value": "1950",
+          "text": "1950"
+        },
+        {
+          "value": "1949",
+          "text": "1949"
+        },
+        {
+          "value": "1948",
+          "text": "1948"
+        },
+        {
+          "value": "1947",
+          "text": "1947"
+        },
+        {
+          "value": "1946",
+          "text": "1946"
+        },
+        {
+          "value": "1945",
+          "text": "1945"
+        },
+        {
+          "value": "1944",
+          "text": "1944"
+        },
+        {
+          "value": "1943",
+          "text": "1943"
+        },
+        {
+          "value": "1942",
+          "text": "1942"
+        },
+        {
+          "value": "1941",
+          "text": "1941"
+        },
+        {
+          "value": "1940",
+          "text": "1940"
+        },
+        {
+          "value": "1939",
+          "text": "1939"
+        },
+        {
+          "value": "1938",
+          "text": "1938"
+        },
+        {
+          "value": "1937",
+          "text": "1937"
+        },
+        {
+          "value": "1936",
+          "text": "1936"
+        },
+        {
+          "value": "1935",
+          "text": "1935"
+        },
+        {
+          "value": "1934",
+          "text": "1934"
+        },
+        {
+          "value": "1933",
+          "text": "1933"
+        },
+        {
+          "value": "1932",
+          "text": "1932"
+        },
+        {
+          "value": "1931",
+          "text": "1931"
+        },
+        {
+          "value": "1930",
+          "text": "1930"
+        },
+        {
+          "value": "1929",
+          "text": "1929"
+        },
+        {
+          "value": "1928",
+          "text": "1928"
+        },
+        {
+          "value": "1927",
+          "text": "1927"
+        },
+        {
+          "value": "1926",
+          "text": "1926"
+        },
+        {
+          "value": "1925",
+          "text": "1925"
+        },
+        {
+          "value": "1924",
+          "text": "1924"
+        },
+        {
+          "value": "1923",
+          "text": "1923"
+        },
+        {
+          "value": "1922",
+          "text": "1922"
+        },
+        {
+          "value": "1921",
+          "text": "1921"
+        },
+        {
+          "value": "1920",
+          "text": "1920"
+        },
+        {
+          "value": "1919",
+          "text": "1919"
+        },
+        {
+          "value": "1918",
+          "text": "1918"
+        },
+        {
+          "value": "1917",
+          "text": "1917"
+        },
+        {
+          "value": "1916",
+          "text": "1916"
+        },
+        {
+          "value": "1915",
+          "text": "1915"
+        },
+        {
+          "value": "1914",
+          "text": "1914"
+        },
+        {
+          "value": "1913",
+          "text": "1913"
+        },
+        {
+          "value": "1912",
+          "text": "1912"
+        },
+        {
+          "value": "1911",
+          "text": "1911"
+        },
+        {
+          "value": "1910",
+          "text": "1910"
+        },
+        {
+          "value": "1909",
+          "text": "1909"
+        },
+        {
+          "value": "1908",
+          "text": "1908"
+        },
+        {
+          "value": "1907",
+          "text": "1907"
+        },
+        {
+          "value": "1906",
+          "text": "1906"
+        },
+        {
+          "value": "1905",
+          "text": "1905"
+        },
+        {
+          "value": "1904",
+          "text": "1904"
+        },
+        {
+          "value": "1903",
+          "text": "1903"
+        },
+        {
+          "value": "1902",
+          "text": "1902"
+        },
+        {
+          "value": "1901",
+          "text": "1901"
+        },
+        {
+          "value": "1900",
+          "text": "1900"
+        }
+      ]
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "libros.libros-editorial-id",
+      "label": "Editorial *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "libros.libros-pais-id",
+      "label": "País *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Afghanistan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Aland Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Albania"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Algeria"
+        },
+        {
+          "value": "[object Object]",
+          "text": "American Samoa"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Andorra"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Angola"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Anguilla"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Antarctica"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Antigua and Barbuda"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Argentina"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Armenia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Aruba"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Australia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Austria"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Azerbaijan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bahamas"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bahrain"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bangladesh"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Barbados"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Belarus"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Belgium"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Belize"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Benin"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bermuda"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bhutan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bolivia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bosnia and Herzegovina"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Botswana"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bouvet Island"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Brazil"
+        },
+        {
+          "value": "[object Object]",
+          "text": "British Indian Ocean Territory"
+        },
+        {
+          "value": "[object Object]",
+          "text": "British Virgin Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Brunei Darussalam"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bulgaria"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Burkina Faso"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Burundi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cambodia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cameroon"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Canada"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cape Verde"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cayman Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Central African Republic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chad"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chile"
+        },
+        {
+          "value": "[object Object]",
+          "text": "China"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Christmas Island"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cocos (Keeling) Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Colombia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Comoros"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Congo, Democratic Republic of the"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Congo (Brazzaville)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cook Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Costa Rica"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Croatia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cuba"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Curazao"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cyprus"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Czech Republic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Côte d'Ivoire"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Denmark"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Djibouti"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dominica"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dominican Republic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ecuador"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Egypt"
+        },
+        {
+          "value": "[object Object]",
+          "text": "El Salvador"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Equatorial Guinea"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Eritrea"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Estonia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ethiopia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Europea Union"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Falkland Islands (Malvinas)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Faroe Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Fiji"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Finland"
+        },
+        {
+          "value": "[object Object]",
+          "text": "France"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French Guiana"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French Polynesia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French Southern Territories"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Gabon"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Gambia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Georgia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Germany"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ghana"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Gibraltar"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Greece"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Greenland"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Grenada"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Guadeloupe"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Guam"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Guatemala"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Guernsey"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Guinea"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Guinea-Bissau"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Guyana"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Haiti"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Heard Island and Mcdonald Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Holy See (Vatican City State)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Honduras"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hong Kong, Special Administrative Region of China"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hungary"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Iceland"
+        },
+        {
+          "value": "[object Object]",
+          "text": "India"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Indonesia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Iran, Islamic Republic of"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Iraq"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ireland"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Isle of Man"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Israel"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Italy"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Jamaica"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Japan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Jersey"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Jordan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kazakhstan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kenya"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kiribati"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Korea, Democratic People's Republic of"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Korea, Republic of"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kuwait"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kyrgyzstan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lao PDR"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Latvia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lebanon"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lesotho"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Liberia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Libya"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Liechtenstein"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lithuania"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Luxembourg"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Macao, Special Administrative Region of China"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Macedonia, Republic of"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Madagascar"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malawi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malaysia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maldives"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mali"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malta"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Marshall Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Martinique"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mauritania"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mauritius"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mayotte"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Micronesia, Federated States of"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Moldova"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Monaco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mongolia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Montenegro"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Montserrat"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Morocco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mozambique"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Myanmar"
+        },
+        {
+          "value": "[object Object]",
+          "text": "México"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Namibia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Nauru"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Nepal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Netherlands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Netherlands Antilles"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Neutral Zone"
+        },
+        {
+          "value": "[object Object]",
+          "text": "New Caledonia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "New Zealand"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Nicaragua"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Niger"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Nigeria"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Niue"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norfolk Island"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Northern Mariana Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norway"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Oman"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pakistan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Palau"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Palestinian Territory, Occupied"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Panama"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Papua New Guinea"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Paraguay"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Peru"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Philippines"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pitcairn"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Poland"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Portugal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Puerto Rico"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Qatar"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Romania"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Russian Federation"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Rwanda"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Réunion"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Saint Helena"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Saint Kitts and Nevis"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Saint Lucia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Saint Pierre and Miquelon"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Saint Vincent and Grenadines"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Saint-Barthélemy"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Saint-Martin (French part)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Samoa"
+        },
+        {
+          "value": "[object Object]",
+          "text": "San Marino"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sao Tome and Principe"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Saudi Arabia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Senegal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Seychelles"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sierra Leone"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Singapore"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Slovakia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Slovenia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Solomon Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Somalia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "South Africa"
+        },
+        {
+          "value": "[object Object]",
+          "text": "South Georgia and the South Sandwich Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "South Sudan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spain"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sri Lanka"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sudan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Suriname"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Svalbard and Jan Mayen Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Swaziland"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sweden"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Switzerland"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Syrian Arab Republic (Syria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Taiwan, Republic of China"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tajikistan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Thailand"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Timor-Leste"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Togo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tokelau"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tonga"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Trinidad and Tobago"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tunisia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Turkey"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Turkmenistan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Turks and Caicos Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tuvalu"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uganda"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ukraine"
+        },
+        {
+          "value": "[object Object]",
+          "text": "United Arab Emirates"
+        },
+        {
+          "value": "[object Object]",
+          "text": "United Kingdom"
+        },
+        {
+          "value": "[object Object]",
+          "text": "United Republic of Tanzania"
+        },
+        {
+          "value": "[object Object]",
+          "text": "United States Minor Outlying Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "United States of America"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uruguay"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uzbekistan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Vanuatu"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Venezuela (Bolivarian Republic of)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Viet Nam"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Virgin Islands, US"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Wallis and Futuna Islands"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Western Sahara"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yemen"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Zambia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Zimbabwe"
+        }
+      ]
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "libros.libros-idioma-id",
+      "label": "Idioma *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Afrikaans"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Afrikaans (South Africa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Akateko"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Albanian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Albanian (Albania)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Alsatian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Alsatian (France)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Amharic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Amharic (Ethiopia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Amuzgo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ancient Greek"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Algeria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Bahrain)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Egypt)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Iraq)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Jordan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Kuwait)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Lebanon)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Libya)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Morocco)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Oman)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Qatar)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Saudi Arabia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Syria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Tunisia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (U.A.E.)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Yemen)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Armenian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Armenian (Armenia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Assamese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Assamese (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Awakateko"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ayapaneco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Azeri"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Azeri (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Azeri (Cyrillic, Azerbaijan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Azeri (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Azeri (Latin, Azerbaijan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bashkir"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bashkir (Russia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Basque"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Basque (Basque)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Belarusian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Belarusian (Belarus)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bengali"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bengali (Bangladesh)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bengali (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bosnian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bosnian (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bosnian (Cyrillic, Bosnia and Herzegovina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bosnian (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bosnian (Latin, Bosnia and Herzegovina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Breton"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Breton (France)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bulgarian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bulgarian (Bulgaria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Catalan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Catalan (Catalan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ch ol"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chatino"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chichimeco jonaz"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinanteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Simplified)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Simplified, PRC)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Simplified, Singapore)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Traditional)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Traditional, Hong Kong S.A.R.)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Traditional, Macao S.A.R.)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Traditional, Taiwan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chocholteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chontal de Oaxaca"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chontal de Tabasco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chuj"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Coptic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cora"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Corsican"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Corsican (France)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Croatian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Croatian (Croatia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Croatian (Latin, Bosnia and Herzegovina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cucapá"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cuicateco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Czech"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Czech (Czech Republic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Danish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Danish (Denmark)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dari"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dari (Afghanistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Divehi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Divehi (Maldives)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dutch"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dutch (Belgium)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dutch (Netherlands)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Australia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Belize)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Canada)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Caribbean)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Ireland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Jamaica)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Malaysia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (New Zealand)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Republic of the Philippines)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Singapore)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (South Africa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Trinidad and Tobago)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (United Kingdom)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (United States)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Zimbabwe)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Esperanto"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Estonian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Estonian (Estonia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Faroese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Faroese (Faroe Islands)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Filipino"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Filipino (Philippines)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Finnish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Finnish (Finland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (Belgium)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (Canada)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (France)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (Luxembourg)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (Monaco)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (Switzerland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Frisian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Frisian (Netherlands)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Galician"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Galician (Galician)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Georgian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Georgian (Georgia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German (Austria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German (Germany)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German (Liechtenstein)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German (Luxembourg)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German (Switzerland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Greek"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Greek (Greece)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Greenlandic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Greenlandic (Greenland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Guarijío"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Gujarati"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Gujarati (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hausa"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hausa (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hausa (Latin, Nigeria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hebrew (Israel)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hebrew?"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hindi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hindi (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Huasteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Huave"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Huichol"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hungarian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hungarian (Hungary)?"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Icelandic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Icelandic (Iceland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Igbo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Igbo (Nigeria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Indonesian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Indonesian (Indonesia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inuktitut (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inuktitut (Latin, Canada)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inuktitut (Syllabics)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inuktitut (Syllabics, Canada)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inuktitut?"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Irish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Irish (Ireland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Italian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Italian (Italy)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Italian (Switzerland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ixcateco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ixil"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Jakalteko"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Japanese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Japanese (Japan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "K iche"
+        },
+        {
+          "value": "[object Object]",
+          "text": "K'iche"
+        },
+        {
+          "value": "[object Object]",
+          "text": "K'iche (Guatemala)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kannada"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kannada (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kaqchikel"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kazakh"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kazakh (Kazakhstan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Khmer"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Khmer (Cambodia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kickapoo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kiliwa"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kinyarwanda"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kinyarwanda (Rwanda)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kiswahili"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kiswahili (Kenya)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Konkani"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Konkani (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Korean"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Korean (Korea)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ku ahl"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kumiai"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kurdo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kyrgyz"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kyrgyz (Kyrgyzstan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lacandón"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lao"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lao (Lao P.D.R.)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Latin"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Latvian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Latvian (Latvia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lengua de Señas Mexicana (LSM)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lithuanian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lithuanian (Lithuania)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lower Sorbian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lower Sorbian (Germany)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Luxembourgish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Luxembourgish (Luxembourg)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Macedonian (FYROM)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Macedonian (Former Yugoslav Republic of Macedonia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malay"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malay (Brunei Darussalam)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malay (Malaysia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malayalam"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malayalam (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maltese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maltese (Malta)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mam"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maori"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maori (New Zealand)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mapudungun"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mapudungun (Chile)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Marathi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Marathi (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Matlatzinca"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maya"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mayo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mazahua"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mazateco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mixe"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mixteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mohawk"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mohawk (Mohawk)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mongolian (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mongolian (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mongolian (Cyrillic, Mongolia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mongolian (Traditional Mongolian)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mongolian (Traditional Mongolian, PRC)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Nepali"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Nepali (Nepal)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norwegian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norwegian (Bokmål)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norwegian (Nynorsk)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norwegian, Bokmål (Norway)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norwegian, Nynorsk (Norway)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Náhuatl"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Occitan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Occitan (France)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Oluteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Oriya"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Oriya (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otomano"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otomí"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Paipai"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pame"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pashto"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pashto (Afghanistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Persian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Persian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pima"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Polish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Polish (Poland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Popoloca"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Popoluca de la Sierra"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Portuguese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Portuguese (Brazil)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Portuguese (Portugal)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Punjabi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Punjabi (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pápago"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Q anjob al"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Q eqchi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Qato K"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Quechua"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Quechua (Bolivia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Quechua (Ecuador)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Quechua (Peru)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Romanian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Romanian (Romania)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Romansh"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Romansh (Switzerland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Russian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Russian (Russia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami (Inari)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami (Lule)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami (Northern)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami (Skolt)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami (Southern)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Inari (Finland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Lule (Norway)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Lule (Sweden)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Northern (Finland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Northern (Norway)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Northern (Sweden)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Skolt (Finland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Southern (Norway)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Southern (Sweden)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sanskrit"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sanskrit (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sayulteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Scottish Gaelic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Scottish Gaelic (United Kingdom)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Cyrillic, Bosnia and Herzegovina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Cyrillic, Montenegro)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Cyrillic, Serbia and Montenegro (Former))"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Cyrillic, Serbia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Latin, Bosnia and Herzegovina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Latin, Montenegro)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Latin, Serbia and Montenegro (Former))"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Latin, Serbia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Seri"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sesotho sa Leboa"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sesotho sa Leboa (South Africa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Setswana"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Setswana (South Africa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sinhala"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sinhala (Sri Lanka)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Slovak"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Slovak (Slovakia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Slovenian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Slovenian (Slovenia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Argentina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Bolivia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Chile)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Colombia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Costa Rica)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Dominican Republic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Ecuador)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (El Salvador)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Guatemala)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Honduras)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Mexico)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Nicaragua)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Panama)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Paraguay)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Peru)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Puerto Rico)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Spain, International Sort)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (United States)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Uruguay)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Venezuela)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Swedish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Swedish (Finland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Swedish (Sweden)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Syriac"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Syriac (Syria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tajik (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tajik (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tajik (Cyrillic, Tajikistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tamazight"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tamazight (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tamazight (Latin, Algeria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tamil"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tamil (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tarahumara"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tarasco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tatar"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tatar (Russia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Teko"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Telugu"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Telugu (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tepehua"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tepehuano del Norte"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tepehuano del Sur"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Texistepequeño"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Thai"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Thai (Thailand)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tibetan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tibetan (PRC)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tlahuica"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tlapaneco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tojolabal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Totonaco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Triqui"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tseltal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tsotsil"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Turkish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Turkish (Turkey)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Turkmen"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Turkmen (Turkmenistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ukrainian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ukrainian (Ukraine)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Upper Sorbian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Upper Sorbian (Germany)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Urdu"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Urdu (Islamic Republic of Pakistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uyghur"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uyghur (PRC)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uzbek (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uzbek (Cyrillic, Uzbekistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uzbek (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uzbek (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uzbek (Latin, Uzbekistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Vietnamese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Vietnamese (Vietnam)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Welsh"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Welsh (United Kingdom)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Wolof"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Wolof (Senegal)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yakut"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yakut (Russia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yaqui"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yi (PRC)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yoruba"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yoruba (Nigeria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Zapoteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Zoque"
+        },
+        {
+          "value": "[object Object]",
+          "text": "isiXhosa"
+        },
+        {
+          "value": "[object Object]",
+          "text": "isiXhosa (South Africa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "isiZulu"
+        },
+        {
+          "value": "[object Object]",
+          "text": "isiZulu (South Africa)"
+        }
+      ]
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "libros.libros-isbn-traducido-id",
+      "label": "ISBN traducido",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "libros.libros-idioma-traducido-id",
+      "label": "Idioma traducido",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Afrikaans"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Afrikaans (South Africa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Akateko"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Albanian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Albanian (Albania)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Alsatian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Alsatian (France)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Amharic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Amharic (Ethiopia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Amuzgo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ancient Greek"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Algeria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Bahrain)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Egypt)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Iraq)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Jordan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Kuwait)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Lebanon)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Libya)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Morocco)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Oman)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Qatar)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Saudi Arabia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Syria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Tunisia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (U.A.E.)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Arabic (Yemen)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Armenian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Armenian (Armenia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Assamese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Assamese (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Awakateko"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ayapaneco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Azeri"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Azeri (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Azeri (Cyrillic, Azerbaijan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Azeri (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Azeri (Latin, Azerbaijan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bashkir"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bashkir (Russia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Basque"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Basque (Basque)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Belarusian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Belarusian (Belarus)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bengali"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bengali (Bangladesh)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bengali (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bosnian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bosnian (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bosnian (Cyrillic, Bosnia and Herzegovina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bosnian (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bosnian (Latin, Bosnia and Herzegovina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Breton"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Breton (France)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bulgarian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Bulgarian (Bulgaria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Catalan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Catalan (Catalan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ch ol"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chatino"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chichimeco jonaz"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinanteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Simplified)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Simplified, PRC)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Simplified, Singapore)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Traditional)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Traditional, Hong Kong S.A.R.)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Traditional, Macao S.A.R.)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chinese (Traditional, Taiwan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chocholteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chontal de Oaxaca"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chontal de Tabasco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Chuj"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Coptic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cora"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Corsican"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Corsican (France)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Croatian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Croatian (Croatia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Croatian (Latin, Bosnia and Herzegovina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cucapá"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Cuicateco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Czech"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Czech (Czech Republic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Danish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Danish (Denmark)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dari"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dari (Afghanistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Divehi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Divehi (Maldives)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dutch"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dutch (Belgium)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Dutch (Netherlands)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Australia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Belize)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Canada)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Caribbean)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Ireland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Jamaica)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Malaysia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (New Zealand)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Republic of the Philippines)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Singapore)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (South Africa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Trinidad and Tobago)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (United Kingdom)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (United States)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "English (Zimbabwe)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Esperanto"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Estonian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Estonian (Estonia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Faroese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Faroese (Faroe Islands)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Filipino"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Filipino (Philippines)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Finnish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Finnish (Finland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (Belgium)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (Canada)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (France)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (Luxembourg)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (Monaco)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "French (Switzerland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Frisian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Frisian (Netherlands)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Galician"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Galician (Galician)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Georgian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Georgian (Georgia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German (Austria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German (Germany)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German (Liechtenstein)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German (Luxembourg)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "German (Switzerland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Greek"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Greek (Greece)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Greenlandic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Greenlandic (Greenland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Guarijío"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Gujarati"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Gujarati (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hausa"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hausa (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hausa (Latin, Nigeria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hebrew (Israel)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hebrew?"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hindi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hindi (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Huasteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Huave"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Huichol"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hungarian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Hungarian (Hungary)?"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Icelandic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Icelandic (Iceland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Igbo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Igbo (Nigeria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Indonesian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Indonesian (Indonesia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inuktitut (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inuktitut (Latin, Canada)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inuktitut (Syllabics)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inuktitut (Syllabics, Canada)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inuktitut?"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Irish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Irish (Ireland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Italian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Italian (Italy)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Italian (Switzerland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ixcateco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ixil"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Jakalteko"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Japanese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Japanese (Japan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "K iche"
+        },
+        {
+          "value": "[object Object]",
+          "text": "K'iche"
+        },
+        {
+          "value": "[object Object]",
+          "text": "K'iche (Guatemala)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kannada"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kannada (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kaqchikel"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kazakh"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kazakh (Kazakhstan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Khmer"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Khmer (Cambodia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kickapoo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kiliwa"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kinyarwanda"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kinyarwanda (Rwanda)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kiswahili"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kiswahili (Kenya)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Konkani"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Konkani (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Korean"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Korean (Korea)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ku ahl"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kumiai"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kurdo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kyrgyz"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Kyrgyz (Kyrgyzstan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lacandón"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lao"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lao (Lao P.D.R.)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Latin"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Latvian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Latvian (Latvia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lengua de Señas Mexicana (LSM)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lithuanian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lithuanian (Lithuania)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lower Sorbian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Lower Sorbian (Germany)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Luxembourgish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Luxembourgish (Luxembourg)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Macedonian (FYROM)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Macedonian (Former Yugoslav Republic of Macedonia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malay"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malay (Brunei Darussalam)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malay (Malaysia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malayalam"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Malayalam (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maltese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maltese (Malta)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mam"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maori"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maori (New Zealand)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mapudungun"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mapudungun (Chile)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Marathi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Marathi (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Matlatzinca"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maya"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mayo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mazahua"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mazateco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mixe"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mixteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mohawk"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mohawk (Mohawk)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mongolian (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mongolian (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mongolian (Cyrillic, Mongolia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mongolian (Traditional Mongolian)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Mongolian (Traditional Mongolian, PRC)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Nepali"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Nepali (Nepal)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norwegian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norwegian (Bokmål)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norwegian (Nynorsk)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norwegian, Bokmål (Norway)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Norwegian, Nynorsk (Norway)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Náhuatl"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Occitan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Occitan (France)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Oluteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Oriya"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Oriya (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otomano"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otomí"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Paipai"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pame"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pashto"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pashto (Afghanistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Persian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Persian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pima"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Polish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Polish (Poland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Popoloca"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Popoluca de la Sierra"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Portuguese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Portuguese (Brazil)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Portuguese (Portugal)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Punjabi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Punjabi (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Pápago"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Q anjob al"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Q eqchi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Qato K"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Quechua"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Quechua (Bolivia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Quechua (Ecuador)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Quechua (Peru)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Romanian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Romanian (Romania)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Romansh"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Romansh (Switzerland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Russian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Russian (Russia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami (Inari)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami (Lule)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami (Northern)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami (Skolt)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami (Southern)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Inari (Finland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Lule (Norway)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Lule (Sweden)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Northern (Finland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Northern (Norway)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Northern (Sweden)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Skolt (Finland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Southern (Norway)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sami, Southern (Sweden)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sanskrit"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sanskrit (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sayulteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Scottish Gaelic"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Scottish Gaelic (United Kingdom)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Cyrillic, Bosnia and Herzegovina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Cyrillic, Montenegro)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Cyrillic, Serbia and Montenegro (Former))"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Cyrillic, Serbia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Latin, Bosnia and Herzegovina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Latin, Montenegro)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Latin, Serbia and Montenegro (Former))"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Serbian (Latin, Serbia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Seri"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sesotho sa Leboa"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sesotho sa Leboa (South Africa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Setswana"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Setswana (South Africa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sinhala"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Sinhala (Sri Lanka)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Slovak"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Slovak (Slovakia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Slovenian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Slovenian (Slovenia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Argentina)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Bolivia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Chile)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Colombia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Costa Rica)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Dominican Republic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Ecuador)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (El Salvador)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Guatemala)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Honduras)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Mexico)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Nicaragua)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Panama)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Paraguay)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Peru)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Puerto Rico)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Spain, International Sort)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (United States)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Uruguay)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Spanish (Venezuela)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Swedish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Swedish (Finland)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Swedish (Sweden)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Syriac"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Syriac (Syria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tajik (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tajik (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tajik (Cyrillic, Tajikistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tamazight"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tamazight (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tamazight (Latin, Algeria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tamil"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tamil (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tarahumara"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tarasco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tatar"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tatar (Russia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Teko"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Telugu"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Telugu (India)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tepehua"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tepehuano del Norte"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tepehuano del Sur"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Texistepequeño"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Thai"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Thai (Thailand)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tibetan"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tibetan (PRC)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tlahuica"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tlapaneco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tojolabal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Totonaco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Triqui"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tseltal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tsotsil"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Turkish"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Turkish (Turkey)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Turkmen"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Turkmen (Turkmenistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ukrainian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Ukrainian (Ukraine)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Upper Sorbian"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Upper Sorbian (Germany)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Urdu"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Urdu (Islamic Republic of Pakistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uyghur"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uyghur (PRC)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uzbek (Cyrillic)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uzbek (Cyrillic, Uzbekistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uzbek (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uzbek (Latin)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Uzbek (Latin, Uzbekistan)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Vietnamese"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Vietnamese (Vietnam)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Welsh"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Welsh (United Kingdom)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Wolof"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Wolof (Senegal)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yakut"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yakut (Russia)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yaqui"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yi"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yi (PRC)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yoruba"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Yoruba (Nigeria)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Zapoteco"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Zoque"
+        },
+        {
+          "value": "[object Object]",
+          "text": "isiXhosa"
+        },
+        {
+          "value": "[object Object]",
+          "text": "isiXhosa (South Africa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "isiZulu"
+        },
+        {
+          "value": "[object Object]",
+          "text": "isiZulu (South Africa)"
+        }
+      ]
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "libros.libros-titulo-traducido-id",
+      "label": "Título traducido",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": null,
+      "id": "recibio-apoyo-conacyt-id",
+      "label": "¿Recibió apoyo de SECIHTI?",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "libros.libros-rol-participacion-id",
+      "label": "Rol de participación *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Autor (a) principal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Autor(a) de correspondencia"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Director (a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-autor (a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Colaborador(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Compilador (a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Coordinador (a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Editor (a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Líder(esa)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Traductor (a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Técnico(a)"
+        }
+      ]
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "libros.libros-estado-id",
+      "label": "Estado de la publicación *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Aceptado para su publicación"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Publicado"
+        }
+      ]
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "libros.libros-objetivo-id",
+      "label": "Objetivo *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Investigación"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Libros de docencia"
+        }
+      ]
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": null,
+      "id": "libros.libros-esta-dictaminado-id",
+      "label": "¿Está dictaminado o cuenta con rigor equivalente?",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "cita-ur-id",
+      "label": "Enlace",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "number",
+      "name": null,
+      "id": "cita-a-id",
+      "label": "Cita A",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "number",
+      "name": null,
+      "id": "cita-b-id",
+      "label": "Cita B",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "cita-total-id",
+      "label": "Total de citas",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-nombre-id",
+      "label": "Nombre *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-primer-apellido-id",
+      "label": "Primer apellido *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-segundo-apellido-id",
+      "label": "Segundo apellido",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-orcId-id",
+      "label": "ORC ID *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-orden-id",
+      "label": "Orden *",
+      "required": false,
+      "options": null
+    }
+  ],
+  "headings": [
+    "Libros"
+  ],
+  "add_form_found": true,
+  "notes": []
+}

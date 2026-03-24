@@ -1,0 +1,442 @@
+{
+  "group": "Aportaciones",
+  "subsection": "Propiedades Intelectuales",
+  "slug": "propiedades_intelectuales",
+  "url": "https://rizoma.conahcyt.mx/aportaciones/propiedades-intelectuales",
+  "mapped_at": "2026-03-23T19:53:08.781772+00:00",
+  "list_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/avisos/ultimo?tipo=AVISO_PRIVACIDAD_SIMPLIFICADO",
+      "path": "/services/msperfil/api/avisos/ultimo",
+      "status": 200,
+      "response_keys": [
+        "id",
+        "fechaPublicacion",
+        "cvu",
+        "fechaAceptacion",
+        "tipo",
+        "aceptado",
+        "aceptaTransferencia"
+      ],
+      "response_size": 7
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/notificaciones/419727",
+      "path": "/services/msperfil/api/notificaciones/419727",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/tipos-pi?page=1&size=300",
+      "path": "/services/saci/api/v1/tipos-pi",
+      "status": 200,
+      "response_count": 7,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/rol-participacion-pi-sni?page=1&size=300",
+      "path": "/services/saci/api/v1/rol-participacion-pi-sni",
+      "status": 200,
+      "response_count": 6,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/estado-pi-sni?page=1&size=300",
+      "path": "/services/saci/api/v1/estado-pi-sni",
+      "status": 200,
+      "response_count": 3,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/propiedades-intelectuales?page=1&size=25&tipoProteccion=&titulo=&rol=&estado=",
+      "path": "/services/msaportaciones/api/propiedades-intelectuales",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/total-documentos/con-documento",
+      "path": "/services/msaportaciones/api/total-documentos/con-documento",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/total-productos/items-con-documento",
+      "path": "/services/msperfil/api/total-productos/items-con-documento",
+      "status": 200
+    }
+  ],
+  "form_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/rol-participacion-pi-sni?page=1&size=300",
+      "path": "/services/saci/api/v1/rol-participacion-pi-sni",
+      "status": 200,
+      "response_count": 6,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    }
+  ],
+  "form_fields": [
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "propiedades-intelectuales.propiedades-intelectuales-tipo-proteccion-id",
+      "label": "Tipo de protección *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Derechos de autor"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Diseño industrial"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Esquema de trazado de circuito integrado"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Marca"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Modelo de utilidad"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otro"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Patente"
+        }
+      ]
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "propiedades-intelectuales.propiedades-intelectuales-titulo-id",
+      "label": "Título *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "propiedades-intelectuales.propiedades-intelectuales-resumen-id",
+      "label": "Resumen *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-tecno-nombre-id",
+      "label": "Nombre *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-tecno-primer-apellido-id",
+      "label": "Primer apellido *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-segundo-apellido-id",
+      "label": "Segundo apellido",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "autor-tecno-rol-id",
+      "label": "Rol *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Autor (a) principal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Autor (a) único"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Autor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otro"
+        }
+      ]
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "propiedades-intelectuales.propiedades-intelectuales-rol-participacion-id",
+      "label": "Rol de participación *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Autor (a) principal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Autor (a) único"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Autor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otro"
+        }
+      ]
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "radio-options",
+      "id": "radio-group-1_BV_option_0",
+      "label": "Solicitud en México",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "radio-options",
+      "id": "radio-group-1_BV_option_1",
+      "label": "Solicitud internacional",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "radio-options",
+      "id": "radio-group-1_BV_option_2",
+      "label": "Ambas solicitudes",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "propiedades-intelectuales.propiedades-intelectuales-numero-solicitud-mexico-id",
+      "label": "Número de solicitud en México *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": null,
+      "label": "Fecha de presentación de la solicitud en México *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "propiedades-intelectuales.propiedades-intelectuales-estado-id",
+      "label": "Estado *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Otorgada"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Solicitada en examen de fondo"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Solicitada en examen de forma"
+        }
+      ]
+    }
+  ],
+  "headings": [
+    "Propiedad Intelectual",
+    "Aún no hay información"
+  ],
+  "add_form_found": true,
+  "notes": []
+}

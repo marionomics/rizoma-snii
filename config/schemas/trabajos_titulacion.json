@@ -1,0 +1,1479 @@
+{
+  "group": "Fortalecimiento",
+  "subsection": "Trabajos Titulacion",
+  "slug": "trabajos_titulacion",
+  "url": "https://rizoma.conahcyt.mx/trayectoria-profesional/formacion-comunidad/trabajos-titulacion",
+  "mapped_at": "2026-03-23T19:57:29.547509+00:00",
+  "list_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/estados-tesis?page=1&size=300",
+      "path": "/services/saci/api/v1/estados-tesis",
+      "status": 200,
+      "response_count": 3,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/niveles-academicos?page=1&size=300",
+      "path": "/services/saci/api/v1/niveles-academicos",
+      "status": 200,
+      "response_count": 8,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/instituciones?page=1&size=300",
+      "path": "/services/saci/api/v1/instituciones",
+      "status": 200,
+      "response_count": 300,
+      "response_item_keys": [
+        "id_institucion",
+        "nombre",
+        "id_institucion_padre",
+        "id_tipo_institucion",
+        "id_pais",
+        "id_entidad",
+        "id_entidad_ubicacion",
+        "id_municipio",
+        "id_localidad",
+        "id_tipo_inst_nivel_uno",
+        "id_tipo_inst_nivel_dos",
+        "id_tipo_inst_nivel_tres"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/trabajos-titulacion-sni?page=1&size=300",
+      "path": "/services/saci/api/v1/trabajos-titulacion-sni",
+      "status": 200,
+      "response_count": 4,
+      "response_item_keys": [
+        "id_trabajos_titulacion",
+        "id",
+        "nombre",
+        "cve_trabajos_titulacion",
+        "desc_trabajos_titulacion",
+        "fecha_alta",
+        "fecha_modificacion",
+        "ind_activo"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/pnpcms/api/instituciones-vigentes",
+      "path": "/services/pnpcms/api/instituciones-vigentes",
+      "status": 200,
+      "response_count": 260,
+      "response_item_keys": [
+        "clave",
+        "clavePs",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/avisos/ultimo?tipo=AVISO_PRIVACIDAD_SIMPLIFICADO",
+      "path": "/services/msperfil/api/avisos/ultimo",
+      "status": 200,
+      "response_keys": [
+        "id",
+        "fechaPublicacion",
+        "cvu",
+        "fechaAceptacion",
+        "tipo",
+        "aceptado",
+        "aceptaTransferencia"
+      ],
+      "response_size": 7
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/notificaciones/419727",
+      "path": "/services/msperfil/api/notificaciones/419727",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/tesis?page=1&size=25",
+      "path": "/services/msperfil/api/tesis",
+      "status": 200,
+      "response_count": 25,
+      "response_item_keys": [
+        "id",
+        "tipoPrograma",
+        "tipoTrabajoTitulacion",
+        "titulo",
+        "estado",
+        "fechaAprobacion",
+        "fechaObtencionGrado",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "gradoAcademico",
+        "rol",
+        "institucion",
+        "documento"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/total-documentos/con-documento",
+      "path": "/services/msaportaciones/api/total-documentos/con-documento",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/total-productos/items-con-documento",
+      "path": "/services/msperfil/api/total-productos/items-con-documento",
+      "status": 200
+    }
+  ],
+  "form_api_calls": [],
+  "form_fields": [
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "tesis.tesis-dirigidas-tipo-programa-id",
+      "id": "tesis.tesis-dirigidas-tipo-programa-id_BV_option_0",
+      "label": "Programa SNP",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "tesis.tesis-dirigidas-tipo-programa-id",
+      "id": "tesis.tesis-dirigidas-tipo-programa-id_BV_option_1",
+      "label": "Programa no SNP",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "tesis.tesis-dirigidas-tipo-trabajo-titulacion-id",
+      "label": "Tipo trabajo titulación *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Otros"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Portafolio"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tesina"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Tesis"
+        }
+      ]
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "tesis.tesis-dirigidas-institucion-snp-id",
+      "label": "Institución *",
+      "required": false,
+      "options": [
+        {
+          "value": "200",
+          "text": "ALINNCO, S.A.P.I. de C.V."
+        },
+        {
+          "value": "187",
+          "text": "ASESORÍAS Y TUTORÍAS PARA LA INVESTIGACIÓN CIENTÍFICA EN LA EDUCACIÓN PUIG-SALABARRÍA S.C."
+        },
+        {
+          "value": "1",
+          "text": "BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA"
+        },
+        {
+          "value": "229",
+          "text": "CENTENARIO HOSPITAL MIGUEL HIDALGO"
+        },
+        {
+          "value": "211",
+          "text": "CENTRO DE DISEÑO Y COMUNICACIÓN S.C."
+        },
+        {
+          "value": "244",
+          "text": "CENTRO DE ESTUDIOS CRISTOBAL COLON AC"
+        },
+        {
+          "value": "312",
+          "text": "CENTRO DE FERTILIDAD DE CHIHUAHUA, S. A. DE C.V."
+        },
+        {
+          "value": "204",
+          "text": "CENTRO DE IDIOMAS EXTRANJEROS IGNACIO MANUEL ALTAMIRANO"
+        },
+        {
+          "value": "2",
+          "text": "CENTRO DE INGENIERIA Y DESARROLLO INDUSTRIAL"
+        },
+        {
+          "value": "251",
+          "text": "CENTRO DE INNOVACION Y DESARROLLO TECNOLOGICO EN SOLDADURA, A.C."
+        },
+        {
+          "value": "3",
+          "text": "CENTRO DE INVESTIGACION CIENTIFICA DE YUCATAN AC"
+        },
+        {
+          "value": "4",
+          "text": "CENTRO DE INVESTIGACION CIENTIFICA Y DE EDUCACION SUPERIOR DE ENSENADA, BAJA CALIFORNIA."
+        },
+        {
+          "value": "5",
+          "text": "CENTRO DE INVESTIGACION EN ALIMENTACION Y DESARROLLO AC"
+        },
+        {
+          "value": "6",
+          "text": "CENTRO DE INVESTIGACION EN GEOGRAFIA Y GEOMATICA INGENIERO JORGE L TAMAYO AC"
+        },
+        {
+          "value": "7",
+          "text": "CENTRO DE INVESTIGACION EN MATEMATICAS AC"
+        },
+        {
+          "value": "8",
+          "text": "CENTRO DE INVESTIGACION EN MATERIALES AVANZADOS SC"
+        },
+        {
+          "value": "9",
+          "text": "CENTRO DE INVESTIGACION EN QUIMICA APLICADA, A.C."
+        },
+        {
+          "value": "10",
+          "text": "CENTRO DE INVESTIGACION Y ASISTENCIA EN TECNOLOGIA Y DISEÑO DEL ESTADO DE JALISCO AC"
+        },
+        {
+          "value": "11",
+          "text": "CENTRO DE INVESTIGACION Y DE ESTUDIOS AVANZADOS DEL INSTITUTO POLITÉCNICO NACIONAL."
+        },
+        {
+          "value": "12",
+          "text": "CENTRO DE INVESTIGACION Y DESARROLLO TECNOLOGICO EN ELECTROQUIMICA SC"
+        },
+        {
+          "value": "13",
+          "text": "CENTRO DE INVESTIGACION Y DOCENCIA ECONOMICAS AC"
+        },
+        {
+          "value": "14",
+          "text": "CENTRO DE INVESTIGACIONES BIOLOGICAS DEL NOROESTE SC"
+        },
+        {
+          "value": "215",
+          "text": "CENTRO DE INVESTIGACIONES EN OPTICA, A.C."
+        },
+        {
+          "value": "16",
+          "text": "CENTRO DE INVESTIGACIONES Y ESTUDIOS SUPERIORES EN ANTROPOLOGIA SOCIAL"
+        },
+        {
+          "value": "165",
+          "text": "CENTRO REGIONAL DE FORMACION DOCENTE E INVESTIGACION EDUCATIVA"
+        },
+        {
+          "value": "192",
+          "text": "CENTRO UNIVERSITARIO ISLA DEL CARMEN AC"
+        },
+        {
+          "value": "18",
+          "text": "CENTROS CULTURALES DE MEXICO, A.C."
+        },
+        {
+          "value": "235",
+          "text": "CHRISTUS MUGUERZA SISTEMAS HOSPITALARIOS S.A. DE C.V."
+        },
+        {
+          "value": "19",
+          "text": "CIATEC AC"
+        },
+        {
+          "value": "20",
+          "text": "CIATEQ, A.C. CENTRO DE TECNOLOGIA AVANZADA (CIATEQ)"
+        },
+        {
+          "value": "21",
+          "text": "COLEGIO DE POSTGRADUADOS"
+        },
+        {
+          "value": "302",
+          "text": "COLEGIO INTERDISCIPLINARIO DE ESPECIALIZACIÓN, A.C."
+        },
+        {
+          "value": "205",
+          "text": "COMISIÓN NACIONAL DE LOS DERECHOS HUMANOS"
+        },
+        {
+          "value": "22",
+          "text": "COMUNIDAD UNIVERSITARIA DEL GOLFO CENTRO, A.C."
+        },
+        {
+          "value": "23",
+          "text": "CORPORACION MEXICANA DE INVESTIGACION EN MATERIALES SA DE CV"
+        },
+        {
+          "value": "164",
+          "text": "EDUCACION SUPERIOR DE CELAYA AC"
+        },
+        {
+          "value": "24",
+          "text": "EL COLEGIO DE JALISCO AC"
+        },
+        {
+          "value": "25",
+          "text": "EL COLEGIO DE LA FRONTERA NORTE AC"
+        },
+        {
+          "value": "26",
+          "text": "EL COLEGIO DE LA FRONTERA SUR"
+        },
+        {
+          "value": "27",
+          "text": "EL COLEGIO DE MEXICO AC"
+        },
+        {
+          "value": "28",
+          "text": "EL COLEGIO DE MICHOACAN AC"
+        },
+        {
+          "value": "29",
+          "text": "EL COLEGIO DE SAN LUIS AC"
+        },
+        {
+          "value": "30",
+          "text": "EL COLEGIO DE SONORA"
+        },
+        {
+          "value": "248",
+          "text": "EL COLEGIO DE TAMAULIPAS"
+        },
+        {
+          "value": "31",
+          "text": "EL COLEGIO DE TLAXCALA AC"
+        },
+        {
+          "value": "32",
+          "text": "EL COLEGIO DE VERACRUZ"
+        },
+        {
+          "value": "33",
+          "text": "EL COLEGIO DEL ESTADO DE HIDALGO"
+        },
+        {
+          "value": "34",
+          "text": "EL COLEGIO MEXIQUENSE AC"
+        },
+        {
+          "value": "179",
+          "text": "ENSEÑANZA E INVESTIGACIÓN SUPERIOR AC"
+        },
+        {
+          "value": "264",
+          "text": "ESTUDIOS DE POSGRADO EN DERECHO, S.C."
+        },
+        {
+          "value": "35",
+          "text": "FACULTAD LATINOAMERICANA DE CIENCIAS SOCIALES (SEDE MEXICO)"
+        },
+        {
+          "value": "260",
+          "text": "FOMENTO EDUCATIVO POPULAR A.C."
+        },
+        {
+          "value": "189",
+          "text": "FORMACION UNIVERSITARIA Y HUMANISTA DE LA LAGUNA A.C"
+        },
+        {
+          "value": "271",
+          "text": "FUNDACION CLINICA MEDICA SUR, A.C."
+        },
+        {
+          "value": "223",
+          "text": "FUNDACIÓN HOSPITAL NUESTRA SEÑORA DE LA LUZ, I.A.P."
+        },
+        {
+          "value": "36",
+          "text": "FUNDACION UNIVERSIDAD DE LAS AMERICAS PUEBLA"
+        },
+        {
+          "value": "303",
+          "text": "GOBIERNO DEL ESTADO DE MÉXICO"
+        },
+        {
+          "value": "242",
+          "text": "GOBIERNO DEL ESTADO DE SAN LUIS POTOSÍ"
+        },
+        {
+          "value": "213",
+          "text": "GRUPO UNIVERSITARIO DE PUEBLA, A.C."
+        },
+        {
+          "value": "309",
+          "text": "GUADALUPE VICTORIA A. C."
+        },
+        {
+          "value": "249",
+          "text": "HOSPITAL CENTRAL DR. IGNACIO MORONES PRIETO"
+        },
+        {
+          "value": "237",
+          "text": "HOSPITAL CIVIL DE CULIACÁN"
+        },
+        {
+          "value": "270",
+          "text": "HOSPITAL GENERAL DE MEXICO \"DR. EDUARDO LICEAGA\""
+        },
+        {
+          "value": "225",
+          "text": "HOSPITAL GENERAL DR. MANUEL GEA GONZÁLEZ"
+        },
+        {
+          "value": "220",
+          "text": "HOSPITAL INFANTIL DE MEXICO FEDERICO GOMEZ"
+        },
+        {
+          "value": "224",
+          "text": "HOSPITAL JUAREZ DE MEXICO"
+        },
+        {
+          "value": "234",
+          "text": "HOSPITAL PEDIATRICO DE SINALOA"
+        },
+        {
+          "value": "296",
+          "text": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE LA PENÍNSULA DE YUCATAN"
+        },
+        {
+          "value": "241",
+          "text": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DEL BAJIO"
+        },
+        {
+          "value": "297",
+          "text": "IIB INSTITUTO DE INVESTIGACIONES A.C."
+        },
+        {
+          "value": "37",
+          "text": "INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y COMUNICACION"
+        },
+        {
+          "value": "38",
+          "text": "INSTITUTO DE ECOLOGIA, A.C."
+        },
+        {
+          "value": "39",
+          "text": "INSTITUTO DE INVESTIGACIONES DR. JOSE MARIA LUIS MORA"
+        },
+        {
+          "value": "181",
+          "text": "INSTITUTO DE LA PROPIEDAD INTELECTUAL Y DERECHO DE LA COMPETENCIA AC"
+        },
+        {
+          "value": "306",
+          "text": "INSTITUTO DE REPRODUCCION Y GINECOLOGIA DE ACAPULCO SA DE CV"
+        },
+        {
+          "value": "316",
+          "text": "INSTITUTO DE SALUD PUBLICA DEL ESTADO DE GUANAJUATO"
+        },
+        {
+          "value": "292",
+          "text": "INSTITUTO DE SEGURIDAD SOCIAL DEL ESTADO DE MEXICO Y MUNICIPIOS"
+        },
+        {
+          "value": "231",
+          "text": "INSTITUTO DE SEGURIDAD Y SERVICIOS SOCIALES DE LOS TRABAJADORES DEL ESTADO"
+        },
+        {
+          "value": "269",
+          "text": "INSTITUTO DE SEGURIDAD Y SERVICIOS SOCIALES DE LOS TRABAJADORES DEL ESTADO"
+        },
+        {
+          "value": "40",
+          "text": "INSTITUTO EDUCATIVO DEL NOROESTE AC (CETYS UNIVERSIDAD)"
+        },
+        {
+          "value": "212",
+          "text": "INSTITUTO INTERNACIONAL DE ESTUDIOS AVANZADOS DE MONTERREY, A.C."
+        },
+        {
+          "value": "274",
+          "text": "INSTITUTO JALISCIENSE DE CANCEROLOGÍA"
+        },
+        {
+          "value": "291",
+          "text": "INSTITUTO MEXICANO DE OFTALMOLOGIA I.A.P."
+        },
+        {
+          "value": "183",
+          "text": "INSTITUTO MEXICANO DE TECNOLOGIA DEL AGUA"
+        },
+        {
+          "value": "41",
+          "text": "INSTITUTO MEXICANO DEL PETROLEO"
+        },
+        {
+          "value": "219",
+          "text": "INSTITUTO MEXICANO DEL SEGURO SOCIAL"
+        },
+        {
+          "value": "299",
+          "text": "INSTITUTO MEXICANO DEL SEGURO SOCIAL"
+        },
+        {
+          "value": "279",
+          "text": "INSTITUTO MEXICANO DEL SEGURO SOCIAL"
+        },
+        {
+          "value": "298",
+          "text": "INSTITUTO MICHOACANO DE CIENCIAS DE LA EDUCACION JOSE MARIA MORELOS"
+        },
+        {
+          "value": "42",
+          "text": "INSTITUTO NACIONAL DE ANTROPOLOGIA E HISTORIA"
+        },
+        {
+          "value": "43",
+          "text": "INSTITUTO NACIONAL DE ASTROFISICA OPTICA Y ELECTRONICA"
+        },
+        {
+          "value": "276",
+          "text": "INSTITUTO NACIONAL DE BELLAS ARTES Y LITERATURA"
+        },
+        {
+          "value": "227",
+          "text": "INSTITUTO NACIONAL DE CANCEROLOGIA"
+        },
+        {
+          "value": "272",
+          "text": "INSTITUTO NACIONAL DE CARDIOLOGIA \"IGNACIO CHAVEZ\""
+        },
+        {
+          "value": "294",
+          "text": "INSTITUTO NACIONAL DE CIENCIAS MEDICAS Y NUTRICION SALVADOR ZUBIRAN"
+        },
+        {
+          "value": "202",
+          "text": "INSTITUTO NACIONAL DE ELECTRICIDAD Y ENERGIAS LIMPIAS"
+        },
+        {
+          "value": "228",
+          "text": "INSTITUTO NACIONAL DE ENFERMEDADES RESPIRATORIAS ISMAEL COSIO VILLEGAS"
+        },
+        {
+          "value": "323",
+          "text": "INSTITUTO NACIONAL DE NEUROLOGIA Y NEUROCIRUGIA MANUEL VELASCO SUAREZ"
+        },
+        {
+          "value": "222",
+          "text": "INSTITUTO NACIONAL DE PEDIATRIA"
+        },
+        {
+          "value": "221",
+          "text": "INSTITUTO NACIONAL DE PERINATOLOGIA ISIDRO ESPINOSA DE LOS REYES"
+        },
+        {
+          "value": "226",
+          "text": "INSTITUTO NACIONAL DE REHABILITACION"
+        },
+        {
+          "value": "44",
+          "text": "INSTITUTO NACIONAL DE SALUD PUBLICA"
+        },
+        {
+          "value": "45",
+          "text": "INSTITUTO POLITECNICO NACIONAL"
+        },
+        {
+          "value": "46",
+          "text": "INSTITUTO POTOSINO DE INVESTIGACION CIENTIFICA Y TECNOLOGICA AC"
+        },
+        {
+          "value": "47",
+          "text": "INSTITUTO TECNOLOGICO AUTONOMO DE MEXICO"
+        },
+        {
+          "value": "57",
+          "text": "INSTITUTO TECNOLÓGICO DE CIUDAD MADERO"
+        },
+        {
+          "value": "63",
+          "text": "INSTITUTO TECNOLÓGICO DE EL LLANO AGUASCALIENTES"
+        },
+        {
+          "value": "281",
+          "text": "INSTITUTO TECNOLÓGICO DE ESTUDIOS SUPERIORES DE LA REGIÓN CARBONÍFERA, DR. ROGELIO MONTEMAYOR SEGUY"
+        },
+        {
+          "value": "156",
+          "text": "INSTITUTO TECNOLÓGICO DE MAZATLÁN"
+        },
+        {
+          "value": "76",
+          "text": "INSTITUTO TECNOLÓGICO DE SONORA"
+        },
+        {
+          "value": "79",
+          "text": "INSTITUTO TECNOLÓGICO DE TLAJOMULCO"
+        },
+        {
+          "value": "157",
+          "text": "INSTITUTO TECNOLÓGICO DE ZACATEPEC"
+        },
+        {
+          "value": "85",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE CAJEME"
+        },
+        {
+          "value": "199",
+          "text": "INSTITUTO TECNOLÓGICO SUPERIOR DE CALKINI, EN EL ESTADO DE CAMPECHE"
+        },
+        {
+          "value": "282",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE CIUDAD ACUÑA"
+        },
+        {
+          "value": "257",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE HUATUSCO"
+        },
+        {
+          "value": "255",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE HUAUCHINANGO"
+        },
+        {
+          "value": "185",
+          "text": "INSTITUTO TECNOLÓGICO SUPERIOR DE IRAPUATO"
+        },
+        {
+          "value": "288",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE JEREZ"
+        },
+        {
+          "value": "239",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE LERDO"
+        },
+        {
+          "value": "259",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE LOS REYES"
+        },
+        {
+          "value": "86",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE MISANTLA"
+        },
+        {
+          "value": "243",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE PANUCO VERACRUZ"
+        },
+        {
+          "value": "256",
+          "text": "INSTITUTO TECNOLÓGICO SUPERIOR DE PEROTE"
+        },
+        {
+          "value": "87",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE POZA RICA"
+        },
+        {
+          "value": "88",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE TANTOYUCA"
+        },
+        {
+          "value": "240",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE TEZIUTLAN"
+        },
+        {
+          "value": "89",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE TIERRA BLANCA"
+        },
+        {
+          "value": "197",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE XALAPA"
+        },
+        {
+          "value": "304",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DE ZONGOLICA"
+        },
+        {
+          "value": "258",
+          "text": "INSTITUTO TECNOLOGICO SUPERIOR DEL ORIENTE DEL ESTADO DE HIDALGO"
+        },
+        {
+          "value": "186",
+          "text": "INSTITUTO TECNOLÓGICO SUPERIOR PURHÉPECHA"
+        },
+        {
+          "value": "91",
+          "text": "INSTITUTO TECNOLÓGICO Y DE ESTUDIOS SUPERIORES DE MONTERREY"
+        },
+        {
+          "value": "92",
+          "text": "INSTITUTO TECNOLOGICO Y DE ESTUDIOS SUPERIORES DE OCCIDENTE AC"
+        },
+        {
+          "value": "300",
+          "text": "INSTITUTO TZAPOPAN: INVESTIGACIÓN, CONSULTORÍA Y FORMACIÓN EN CIENCIAS SOCIALES Y DE LA SALUD A.C"
+        },
+        {
+          "value": "155",
+          "text": "INVESTIGACIONES Y ESTUDIOS SUPERIORES SC (UNIVERSIDAD ANÁHUAC, MÉXICO NORTE)"
+        },
+        {
+          "value": "93",
+          "text": "LABORATORIO NACIONAL DE INFORMATICA AVANZADA AC"
+        },
+        {
+          "value": "236",
+          "text": "OPERADORA DE HOSPITALES ANGELES, S.A. DE C.V."
+        },
+        {
+          "value": "232",
+          "text": "ORGANISMO PÚBLICO DESCENTRALIZADO HOSPITAL CIVIL DE GUADALAJARA"
+        },
+        {
+          "value": "207",
+          "text": "ORGANIZACIÓN ORT DE MÉXICO, I.A.P."
+        },
+        {
+          "value": "196",
+          "text": "PATRONATO CESUN, A.C."
+        },
+        {
+          "value": "273",
+          "text": "PETROLEOS MEXICANOS, EMPRESA PRODUCTIVA DEL ESTADO"
+        },
+        {
+          "value": "160",
+          "text": "PROMOCION DE LA CULTURA Y LA EDUCACIÓN SUPERIOR DEL BAJÍO A.C."
+        },
+        {
+          "value": "201",
+          "text": "PROMOTORA DE CENTROS EDUCATIVOS Y CULTURALES SC"
+        },
+        {
+          "value": "246",
+          "text": "PROMOTORA MEDICA AGUASCALIENTES, S.A. DE C.V."
+        },
+        {
+          "value": "0012116240",
+          "text": "SECREETARIA DE MARINA / UNIVERSIDAD NAVAL"
+        },
+        {
+          "value": "287",
+          "text": "SECRETARÍA DE EDUCACIÓN"
+        },
+        {
+          "value": "324",
+          "text": "SECRETARÍA DE FINANZAS"
+        },
+        {
+          "value": "218",
+          "text": "SECRETARÍA DE LA DEFENSA NACIONAL"
+        },
+        {
+          "value": "263",
+          "text": "SECRETARÍA DE LA DEFENSA NACIONAL"
+        },
+        {
+          "value": "322",
+          "text": "SECRETARÍA DE LA DEFENSA NACIONAL"
+        },
+        {
+          "value": "217",
+          "text": "SECRETARÍA DE MARINA"
+        },
+        {
+          "value": "295",
+          "text": "SECRETARÍA DE SALUD"
+        },
+        {
+          "value": "238",
+          "text": "SERVICIOS DE SALUD DE SONORA"
+        },
+        {
+          "value": "233",
+          "text": "SERVICIOS DE SALUD JALISCO"
+        },
+        {
+          "value": "289",
+          "text": "SERVICIOS EDUCATIVOS DEL ESTADO DE CHIHUAHUA"
+        },
+        {
+          "value": "313",
+          "text": "SERVICIOS INTEGRALES NOVA DE MONTERREY S.A. DE C.V."
+        },
+        {
+          "value": "94",
+          "text": "SOCIEDAD PANAMERICANA DE ESTUDIOS EMPRESARIALES AC."
+        },
+        {
+          "value": "184",
+          "text": "TECNOLOGICO DE ESTUDIOS SUPERIORES DE CUATITLAN IZCALLI"
+        },
+        {
+          "value": "95",
+          "text": "TECNOLOGICO DE ESTUDIOS SUPERIORES DE ECATEPEC"
+        },
+        {
+          "value": "169",
+          "text": "TECNOLÓGICO NACIONAL DE MÉXICO"
+        },
+        {
+          "value": "290",
+          "text": "TECNOLÓGICO NACIONAL DE MÉXICO"
+        },
+        {
+          "value": "167",
+          "text": "UNIVERSIDAD AERONÁUTICA EN QUERÉTARO"
+        },
+        {
+          "value": "154",
+          "text": "UNIVERSIDAD ANAHUAC DEL SUR SC"
+        },
+        {
+          "value": "96",
+          "text": "UNIVERSIDAD AUTONOMA AGRARIA ANTONIO NARRO"
+        },
+        {
+          "value": "97",
+          "text": "UNIVERSIDAD AUTONOMA BENITO JUAREZ DE OAXACA"
+        },
+        {
+          "value": "315",
+          "text": "UNIVERSIDAD AUTONOMA COMUNAL DE OAXACA"
+        },
+        {
+          "value": "98",
+          "text": "UNIVERSIDAD AUTONOMA DE AGUASCALIENTES"
+        },
+        {
+          "value": "99",
+          "text": "UNIVERSIDAD AUTONOMA DE BAJA CALIFORNIA"
+        },
+        {
+          "value": "100",
+          "text": "UNIVERSIDAD AUTONOMA DE BAJA CALIFORNIA SUR"
+        },
+        {
+          "value": "101",
+          "text": "UNIVERSIDAD AUTONOMA DE CAMPECHE."
+        },
+        {
+          "value": "102",
+          "text": "UNIVERSIDAD AUTONOMA DE CHAPINGO"
+        },
+        {
+          "value": "103",
+          "text": "UNIVERSIDAD AUTONOMA DE CHIAPAS"
+        },
+        {
+          "value": "104",
+          "text": "UNIVERSIDAD AUTONOMA DE CHIHUAHUA"
+        },
+        {
+          "value": "105",
+          "text": "UNIVERSIDAD AUTONOMA DE CIUDAD JUAREZ"
+        },
+        {
+          "value": "106",
+          "text": "UNIVERSIDAD AUTONOMA DE COAHUILA"
+        },
+        {
+          "value": "206",
+          "text": "UNIVERSIDAD AUTÓNOMA DE FRESNILLO, A.C."
+        },
+        {
+          "value": "107",
+          "text": "UNIVERSIDAD AUTONOMA DE GUADALAJARA AC"
+        },
+        {
+          "value": "108",
+          "text": "UNIVERSIDAD AUTONOMA DE GUERRERO"
+        },
+        {
+          "value": "109",
+          "text": "UNIVERSIDAD AUTONOMA DE LA CIUDAD DE MEXICO"
+        },
+        {
+          "value": "110",
+          "text": "UNIVERSIDAD AUTONOMA DE NAYARIT"
+        },
+        {
+          "value": "111",
+          "text": "UNIVERSIDAD AUTONOMA DE NUEVO LEON"
+        },
+        {
+          "value": "128",
+          "text": "UNIVERSIDAD AUTÓNOMA DE OCCIDENTE"
+        },
+        {
+          "value": "112",
+          "text": "UNIVERSIDAD AUTONOMA DE QUERETARO"
+        },
+        {
+          "value": "113",
+          "text": "UNIVERSIDAD AUTONOMA DE SAN LUIS POTOSI"
+        },
+        {
+          "value": "114",
+          "text": "UNIVERSIDAD AUTONOMA DE SINALOA"
+        },
+        {
+          "value": "115",
+          "text": "UNIVERSIDAD AUTONOMA DE TAMAULIPAS"
+        },
+        {
+          "value": "116",
+          "text": "UNIVERSIDAD AUTONOMA DE TLAXCALA"
+        },
+        {
+          "value": "117",
+          "text": "UNIVERSIDAD AUTONOMA DE YUCATAN"
+        },
+        {
+          "value": "118",
+          "text": "UNIVERSIDAD AUTONOMA DE ZACATECAS"
+        },
+        {
+          "value": "119",
+          "text": "UNIVERSIDAD AUTONOMA DEL CARMEN"
+        },
+        {
+          "value": "120",
+          "text": "UNIVERSIDAD AUTONOMA DEL ESTADO DE HIDALGO"
+        },
+        {
+          "value": "121",
+          "text": "UNIVERSIDAD AUTONOMA DEL ESTADO DE MEXICO"
+        },
+        {
+          "value": "122",
+          "text": "UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS"
+        },
+        {
+          "value": "129",
+          "text": "UNIVERSIDAD AUTÓNOMA DEL ESTADO DE QUINTANA ROO"
+        },
+        {
+          "value": "172",
+          "text": "UNIVERSIDAD AUTONOMA DEL NORESTE AC"
+        },
+        {
+          "value": "293",
+          "text": "UNIVERSIDAD AUTONOMA INDÍGENA DE MÉXICO"
+        },
+        {
+          "value": "123",
+          "text": "UNIVERSIDAD AUTONOMA METROPOLITANA"
+        },
+        {
+          "value": "161",
+          "text": "UNIVERSIDAD DA VINCI, A.C."
+        },
+        {
+          "value": "124",
+          "text": "UNIVERSIDAD DE CIENCIAS Y ARTES DE CHIAPAS"
+        },
+        {
+          "value": "125",
+          "text": "UNIVERSIDAD DE COLIMA"
+        },
+        {
+          "value": "126",
+          "text": "UNIVERSIDAD DE GUADALAJARA"
+        },
+        {
+          "value": "127",
+          "text": "UNIVERSIDAD DE GUANAJUATO"
+        },
+        {
+          "value": "308",
+          "text": "UNIVERSIDAD DE LA CIÉNEGA DEL ESTADO DE MICHOACÁN DE OCAMPO"
+        },
+        {
+          "value": "176",
+          "text": "UNIVERSIDAD DE LA SALLE BAJIO AC"
+        },
+        {
+          "value": "214",
+          "text": "UNIVERSIDAD DE LA SIERRA JUAREZ"
+        },
+        {
+          "value": "173",
+          "text": "UNIVERSIDAD DE LA SIERRA SUR"
+        },
+        {
+          "value": "178",
+          "text": "UNIVERSIDAD DE MONTERREY"
+        },
+        {
+          "value": "130",
+          "text": "UNIVERSIDAD DE SONORA"
+        },
+        {
+          "value": "210",
+          "text": "UNIVERSIDAD DEL CARIBE"
+        },
+        {
+          "value": "190",
+          "text": "UNIVERSIDAD DEL ISTMO"
+        },
+        {
+          "value": "131",
+          "text": "UNIVERSIDAD DEL MAR"
+        },
+        {
+          "value": "132",
+          "text": "UNIVERSIDAD DEL PAPALOAPAN"
+        },
+        {
+          "value": "311",
+          "text": "UNIVERSIDAD DUCENS A.C."
+        },
+        {
+          "value": "133",
+          "text": "UNIVERSIDAD ESTATAL DE SONORA"
+        },
+        {
+          "value": "134",
+          "text": "UNIVERSIDAD IBEROAMERICANA AC"
+        },
+        {
+          "value": "252",
+          "text": "UNIVERSIDAD INTERCULTURAL DE CHIAPAS"
+        },
+        {
+          "value": "198",
+          "text": "UNIVERSIDAD INTERCULTURAL DEL ESTADO DE MEXICO"
+        },
+        {
+          "value": "209",
+          "text": "UNIVERSIDAD INTERCULTURAL DEL ESTADO DE PUEBLA"
+        },
+        {
+          "value": "250",
+          "text": "UNIVERSIDAD INTERCULTURAL INDÍGENA DE MICHOACAN"
+        },
+        {
+          "value": "166",
+          "text": "UNIVERSIDAD INTERCULTURAL MAYA DE QUINTANA ROO"
+        },
+        {
+          "value": "163",
+          "text": "UNIVERSIDAD INTERNACIONAL IBEROAMERICANA AC"
+        },
+        {
+          "value": "135",
+          "text": "UNIVERSIDAD JUAREZ AUTONOMA DE TABASCO"
+        },
+        {
+          "value": "136",
+          "text": "UNIVERSIDAD JUAREZ DEL ESTADO DE DURANGO"
+        },
+        {
+          "value": "137",
+          "text": "UNIVERSIDAD LA SALLE AC"
+        },
+        {
+          "value": "191",
+          "text": "UNIVERSIDAD MARISTA DE MERIDA AC"
+        },
+        {
+          "value": "245",
+          "text": "UNIVERSIDAD MEXICO AMERICANA DEL NORTE, A.C."
+        },
+        {
+          "value": "138",
+          "text": "UNIVERSIDAD MICHOACANA DE SAN NICOLAS DE HIDALGO"
+        },
+        {
+          "value": "254",
+          "text": "UNIVERSIDAD MOTOLINÍA DEL PEDREGAL A.C."
+        },
+        {
+          "value": "150",
+          "text": "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO"
+        },
+        {
+          "value": "152",
+          "text": "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO - COORDINACION DE HUMANIDADES"
+        },
+        {
+          "value": "153",
+          "text": "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO - COORDINACION DE INVESTIGACION CIENTIFICA"
+        },
+        {
+          "value": "168",
+          "text": "UNIVERSIDAD PEDAGOGICA DE DURANGO"
+        },
+        {
+          "value": "139",
+          "text": "UNIVERSIDAD PEDAGOGICA NACIONAL"
+        },
+        {
+          "value": "203",
+          "text": "UNIVERSIDAD POLITECNICA DE AGUASCALIENTES"
+        },
+        {
+          "value": "140",
+          "text": "UNIVERSIDAD POLITECNICA DE CHIAPAS"
+        },
+        {
+          "value": "174",
+          "text": "UNIVERSIDAD POLITÉCNICA DE FRANCISCO I. MADERO"
+        },
+        {
+          "value": "193",
+          "text": "UNIVERSIDAD POLITÉCNICA DE GUANAJUATO"
+        },
+        {
+          "value": "141",
+          "text": "UNIVERSIDAD POLITECNICA DE PACHUCA"
+        },
+        {
+          "value": "142",
+          "text": "UNIVERSIDAD POLITÉCNICA DE PUEBLA"
+        },
+        {
+          "value": "280",
+          "text": "UNIVERSIDAD POLITECNICA DE QUERETARO"
+        },
+        {
+          "value": "158",
+          "text": "UNIVERSIDAD POLITECNICA DE SINALOA"
+        },
+        {
+          "value": "319",
+          "text": "UNIVERSIDAD POLITÉCNICA DE TEXCOCO"
+        },
+        {
+          "value": "143",
+          "text": "UNIVERSIDAD POLITECNICA DE TULANCINGO"
+        },
+        {
+          "value": "144",
+          "text": "UNIVERSIDAD POLITÉCNICA DE VICTORIA"
+        },
+        {
+          "value": "145",
+          "text": "UNIVERSIDAD POLITÉCNICA DEL ESTADO DE MORELOS"
+        },
+        {
+          "value": "314",
+          "text": "UNIVERSIDAD POLITÉCNICA DEL MAR Y LA SIERRA"
+        },
+        {
+          "value": "188",
+          "text": "UNIVERSIDAD POLITÉCNICA METROPOLITANA DE HIDALGO"
+        },
+        {
+          "value": "175",
+          "text": "UNIVERSIDAD POLlTECNICA DEL VALLE DE MEXICO"
+        },
+        {
+          "value": "146",
+          "text": "UNIVERSIDAD POPULAR AUTONOMA DEL ESTADO DE PUEBLA, A.C."
+        },
+        {
+          "value": "159",
+          "text": "UNIVERSIDAD POPULAR DE LA CHONTALPA"
+        },
+        {
+          "value": "325",
+          "text": "UNIVERSIDAD ROSARIO CASTELLANOS"
+        },
+        {
+          "value": "305",
+          "text": "UNIVERSIDAD TECNOLOGICA DE CIUDAD JUAREZ"
+        },
+        {
+          "value": "230",
+          "text": "UNIVERSIDAD TECNOLOGICA DE JALISCO"
+        },
+        {
+          "value": "147",
+          "text": "UNIVERSIDAD TECNOLOGICA DE LA MIXTECA"
+        },
+        {
+          "value": "301",
+          "text": "UNIVERSIDAD TECNOLÓGICA DE SAN JUAN DEL RÍO"
+        },
+        {
+          "value": "318",
+          "text": "UNIVERSIDAD TECNOLOGICA DE TABASCO"
+        },
+        {
+          "value": "320",
+          "text": "UNIVERSIDAD TECNOLOGICA DE TORREON"
+        },
+        {
+          "value": "216",
+          "text": "UNIVERSIDAD TEPANTLATO A.C."
+        },
+        {
+          "value": "148",
+          "text": "UNIVERSIDAD VERACRUZANA"
+        }
+      ]
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "tesis.tesis-dirigidas-programas-snp-id",
+      "label": "Programas SNP *",
+      "required": false,
+      "options": []
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "tesis.tesis-dirigidas-titulo-id",
+      "label": "Título del trabajo *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "tesis.tesis-dirigidas-estado-id",
+      "label": "Estado del trabajo *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "En proceso"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Terminada"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Trunca"
+        }
+      ]
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "tesis.tesis-dirigidas-nombre-id",
+      "label": "Nombre del autor *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "tesis.tesis-dirigidas-primer-apellido-id",
+      "label": "Primer Apellido *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "tesis.tesis-dirigidas-segundo-apellido-id",
+      "label": "Segundo Apellido",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "tesis.tesis-dirigidas-grado-academico-id",
+      "label": "Grado académico del trabajo *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Doctorado"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Especialidad"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Licenciatura"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Maestría"
+        }
+      ]
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "tesis.tesis-dirigidas-rol-id",
+      "label": "Rol de participación *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Director(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Director(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Asesor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Revisor(a)"
+        }
+      ]
+    }
+  ],
+  "headings": [
+    "Trabajos de titulación"
+  ],
+  "add_form_found": true,
+  "notes": []
+}

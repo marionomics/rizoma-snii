@@ -1,0 +1,394 @@
+{
+  "group": "Aportaciones",
+  "subsection": "Transferencias Tecnologicas",
+  "slug": "transferencias_tecnologicas",
+  "url": "https://rizoma.conahcyt.mx/aportaciones/transferencias-tecnologicas",
+  "mapped_at": "2026-03-23T19:53:23.393047+00:00",
+  "list_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/act-tt-sni?page=1&size=300",
+      "path": "/services/saci/api/v1/act-tt-sni",
+      "status": 200,
+      "response_count": 5,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/rol-participacion-pi-sni?page=1&size=300",
+      "path": "/services/saci/api/v1/rol-participacion-pi-sni",
+      "status": 200,
+      "response_count": 6,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/transferencias-tecnologicas?page=1&size=25&tipoActividad=&descripcion=&fechaInicio=&fechaFin=&rol=",
+      "path": "/services/msaportaciones/api/transferencias-tecnologicas",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/avisos/ultimo?tipo=AVISO_PRIVACIDAD_SIMPLIFICADO",
+      "path": "/services/msperfil/api/avisos/ultimo",
+      "status": 200,
+      "response_keys": [
+        "id",
+        "fechaPublicacion",
+        "cvu",
+        "fechaAceptacion",
+        "tipo",
+        "aceptado",
+        "aceptaTransferencia"
+      ],
+      "response_size": 7
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/notificaciones/419727",
+      "path": "/services/msperfil/api/notificaciones/419727",
+      "status": 200,
+      "response_count": 0
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/mi-perfil/valida",
+      "path": "/services/msperfil/api/mi-perfil/valida",
+      "status": 200,
+      "response_keys": [
+        "fotografia",
+        "semblanza",
+        "linkedin",
+        "mediosContacto",
+        "intereses",
+        "lineasInvestigacion",
+        "habilidades",
+        "orcId",
+        "curp",
+        "nombre",
+        "primerApellido",
+        "segundoApellido",
+        "fechaNacimiento",
+        "sexo",
+        "paisNacimiento",
+        "entidadFederativa",
+        "rfc",
+        "estadoCivil",
+        "nacionalidad",
+        "domicilio",
+        "areaConocimiento",
+        "documentoExtranjero",
+        "contactosEmergencia",
+        "dependientesEconomicos"
+      ],
+      "response_size": 24
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msaportaciones/api/total-documentos/con-documento",
+      "path": "/services/msaportaciones/api/total-documentos/con-documento",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/perfil/cambiopassword",
+      "path": "/services/msperfil/api/perfil/cambiopassword",
+      "status": 200,
+      "response_keys": [
+        "estatus"
+      ],
+      "response_size": 1
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/msperfil/api/total-productos/items-con-documento",
+      "path": "/services/msperfil/api/total-productos/items-con-documento",
+      "status": 200
+    }
+  ],
+  "form_api_calls": [
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/tipo-instituciones?page=1&size=300",
+      "path": "/services/saci/api/v1/tipo-instituciones",
+      "status": 200,
+      "response_count": 2,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://rizoma.conahcyt.mx/services/saci/api/v1/rol-participacion-pi-sni?page=1&size=300",
+      "path": "/services/saci/api/v1/rol-participacion-pi-sni",
+      "status": 200,
+      "response_count": 6,
+      "response_item_keys": [
+        "id",
+        "nombre"
+      ]
+    }
+  ],
+  "form_fields": [
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "transferencias-tecnologicas.transferencias-tecnologicas-tipo-actvidad-id",
+      "label": "Tipo de actividad *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Asociación estratégica o alianza de negocios temporal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Consultoría o asesoría técnica especializada"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Creación de empresa (Spin off / Start-up)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Licenciamiento"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otra"
+        }
+      ]
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "transferencias-tecnologicas.transferencias-tecnologicas-descripcion-actividad-id",
+      "label": "Descripción de la actividad de transferencia *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "transferencias-tecnologicas.transferencias-tecnologicas-rol-participacion-id",
+      "label": "Rol de participación *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Autor (a) principal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Autor (a) único"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Autor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otro"
+        }
+      ]
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "transferencias-tecnologicas.transferencias-tecnologicas-descripcion-actividades-id",
+      "label": "Descripción de sus actividades realizadas *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": null,
+      "label": "Periodo de participación en el proceso de transferencia/Fecha Inicio *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": null,
+      "label": "Periodo de participación en el proceso de transferencia/Fecha fin *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": null,
+      "id": "transferencias-tecnologicas.transferencias-tecnologicas-principales-resultados-id",
+      "label": "Principales resultados de su participación en el proceso de transferencia *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-tecno-nombre-id",
+      "label": "Nombre *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-tecno-primer-apellido-id",
+      "label": "Primer apellido *",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": null,
+      "id": "autor-segundo-apellido-id",
+      "label": "Segundo apellido",
+      "required": false,
+      "options": null
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": null,
+      "id": "autor-tecno-rol-id",
+      "label": "Rol *",
+      "required": false,
+      "options": [
+        {
+          "value": "[object Object]",
+          "text": "Autor (a) principal"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Autor (a) único"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Autor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Co-Inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Inventor(a)"
+        },
+        {
+          "value": "[object Object]",
+          "text": "Otro"
+        }
+      ]
+    }
+  ],
+  "headings": [
+    "Transferencia Tecnológica",
+    "Aún no hay información"
+  ],
+  "add_form_found": true,
+  "notes": []
+}
