@@ -185,9 +185,9 @@ Valid `_status` values:
 |-------|--------|--------|--------|
 | 1 — Auth + API recon | `scripts/01_recon.py` | ✅ Complete | `logs/api_map.json` |
 | 2 — Section/field mapping | `scripts/02_map_activities.py` | ✅ Complete | `config/schemas/*.json` |
-| 3 — Local data entry | (manual) | ⬜ Not started | `evidence/**/*.json` |
-| 4 — Upload automation | `scripts/03_upload.py` | ⬜ Not started | `logs/upload_log.json` |
-| 5 — Tracking dashboard | `scripts/04_tracker.py` | ⬜ Not started | `logs/status_report.md` |
+| 3 — Local data entry | (manual + Notion) | 🔄 In progress | `evidence/**/*.json` |
+| 4 — Upload automation | per-section scripts (10–12+) | ✅ Active | `logs/upload_*_log.json` |
+| 5 — Tracking dashboard | `scripts/04_tracker.py` | ✅ Complete | `logs/status_report.md` |
 
 ---
 
@@ -211,24 +211,60 @@ Valid `_status` values:
 
 - [x] Phase 1 complete — login works, base API mapped
 - [x] Phase 2 complete — 36 sections mapped, all forms captured, evidence folders created
-- [~] Phase 3 — populate `evidence/` JSON files with Mario's data (medios-escritos done; all others pending)
-- [x] Phase 4 complete — upload scripts built and tested (`scripts/10_upload_blog.py`, `scripts/auth.py`)
+- [~] Phase 3 — populate `evidence/` JSON files with Mario's data (3 sections done; others pending)
+- [x] Phase 4 active — upload scripts built and running (scripts 10–13 complete)
 - [x] Phase 5 complete — tracker dashboard (`scripts/04_tracker.py --md` → `logs/status_report.md`)
 
-### Platform counts as of 2026-03-24
-| Section | On platform |
-|---------|:-----------:|
-| Artículos | 11 |
-| Libros | 1 |
-| Capítulos | 7 |
-| Talleres | 3 |
-| Evaluaciones programas | 1 |
-| Dictaminaciones especializadas | 2 |
-| Cursos impartidos | 74 |
-| Trabajos de titulación | 26 |
-| Estancias de investigación | 1 |
-| Medios escritos (Blog) | 94 ✅ |
-| Audiovisuales/Radiofónicos | 2 |
-| All other 25 sections | 0 |
+### Upload scripts built
 
-**Start here when resuming:** Phase 3 — create JSON evidence files for sections that have 0 on the platform. Use `config/schemas/{slug}.json` for field reference. Run `python3 scripts/04_tracker.py --md` after any change.
+| Script | Section | Metadata | Documents |
+|--------|---------|:--------:|:---------:|
+| `10_upload_blog.py` | Medios escritos (Blog) | 93 ✅ | n/a |
+| `11_upload_videos.py` | Audiovisuales/Radiofónicos digitales | 12 ✅ | n/a |
+| `12_upload_dictaminaciones_pub.py` | Dictaminaciones de publicaciones (metadata) | 9 ✅ | — |
+| `13_upload_docs_dictaminaciones_pub.py` | Dictaminaciones de publicaciones (documents) | — | 9 ✅ |
+
+### Document upload flow (reverse-engineered 2026-03-26)
+
+Two steps for any section with PDF evidence:
+
+```
+Step 1 — upload PDF to dmsms (document storage):
+  POST /services/dmsms/api/documentos/RIZOMA/convocatorias/perfil/{CVU}?etapa=REGISTRO
+  Body: {"nombre": "file.pdf", "contenido": "<base64-encoded PDF>"}
+  Response: 201, Location header = https://tlapiakali.conahcyt.mx/s/{id}
+
+Step 2 — attach document to the record:
+  PUT /services/msaportaciones/api/{section}/{id}
+  Body: full record JSON + "documento": {
+    "nombre": "file.pdf", "contentType": "application/pdf",
+    "uri": "<Location from step 1>", "definicionDocumento": "1", "size": <bytes>
+  }
+```
+
+`RIZOMA_CVU=419727` must be set in `.env`. Script 13 is the template for all future document uploads.
+
+### Platform counts as of 2026-03-26
+| Section | On platform | Local | Status |
+|---------|:-----------:|:-----:|--------|
+| Artículos | 11 | — | Pre-existing |
+| Libros | 1 | — | Pre-existing |
+| Capítulos | 7 | — | Pre-existing |
+| Talleres | 3 | — | Pre-existing |
+| Diplomados impartidos | 1 | — | Pre-existing |
+| Evaluaciones programas | 1 | — | Pre-existing |
+| Dictaminaciones especializadas | 2 | — | Pre-existing |
+| Cursos impartidos | 74 | — | Pre-existing |
+| Trabajos de titulación | 26 | — | Pre-existing |
+| Estancias de investigación | 1 | — | Pre-existing |
+| Medios escritos (Blog) | 94 | 93 | ✅ Complete (meta only) |
+| Audiovisuales/Radiofónicos digitales | 15 | 12 | ✅ Complete (meta only) |
+| Dictaminaciones de publicaciones | 9 | 9 | ✅ Complete (meta + docs) |
+| All other 23 sections | 0 | — | Pending Phase 3 |
+
+### Notion integration
+- Constancias DB (`718520e3-...`) — 230 items classified with `Tipo de Producto Rizoma` + `Notas Rizoma`
+- `scripts/notion_classify.py` — bulk reclassifier (dry-run by default, `--live` to apply)
+- PDF evidence files are stored in Notion and referenced via `_notion_id` + `_pdf` fields in each JSON
+
+**Start here when resuming:** Phase 3 — continue creating JSON evidence files for sections at 0. Priority: sections with Notion constancias already classified. Use `config/schemas/{slug}.json` for field reference. Run `python3 scripts/04_tracker.py --md` after any change.
